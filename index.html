@@ -14,16 +14,38 @@
     <img src="images/logo/Reservia.svg" alt="Logo de Reservia"/>
 </div>
 
-    
+   <!--section--> 
     <header>
+        <section>
 <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
 <h2>En plein centre ville ou en pleine nature</h2>
 <form class="search-box" action="/search">
     <input class="asdf" type="search" placeholder="Explore City">
 
-    
+<!-- ajout des differents boutons filtres
+<div class="filteredList">
+    <h3>Filtres</h3>
+    <button class="filter-option">Economique</button>
+    <button class="filter-option">Familial</button>
+    <button class="filter-option">Romantique</button>
+    <button class="filter-option">Animaux autorisés</button>
+</div>
+-->
 
-<!--Navigation menu-->
+<div class="filteredList">
+    <h3>Filtres</h3>
+    <button class="filter-option" data-filter="economique" tabindex="-1">Economique</button> 
+    <button class="filter-option" data-filter="familial" tabindex="-1">Familial</button> 
+    <button class="filter-option" data-filter="romantique" tabindex="-1">Romantique</button>
+    <button class="filter-option" data-filter="animaux" tabindex="-1">Animaux autorisés</button>  
+   
+
+
+       </section>
+
+
+
+    <!--Navigation menu-->
 <nav>
     <ul>
         <li class="active"><a href="#">Hébergements</a></li>
@@ -34,6 +56,9 @@
 
 
 </nav>
+    
+
+
     </header>
     
  
