@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="css/index.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-        <title>Reservia</title>  
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">       
+<title>Reservia</title>  
     </head>
     <body>
 <!--logo-->
@@ -18,11 +19,11 @@
         <ul>
             <li class="active"><a href="#">Hébergements</a></li>
             <li><a href="#">Activités</a></li>
-            <li><a href="#">S'inscrire</a></li>
+            <li class="inscrire"><a href="#">S'inscrire</a></li>
             
         </ul>
     
-    
+
     </nav>
 
    <!--section--> 
@@ -30,21 +31,40 @@
         <section>
 <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
 <p>En plein centre ville ou en pleine nature</p>
+
 <form class="search-box" action="/search">
-    <input class="ville" type="search" placeholder="Marseille, France">
-    <i class="fas fa-map-marker-alt"></i>
+     
+        <div id="logo_recherche"> <img    src="icones/map-marker-alt-solid.svg" alt="Logo"
+                
+                ></img>
+            </div>
+            
+
+            <input class="ville" type="search" placeholder="Marseille, France">
+
+            <button class="" >Rechercher</button>
+</form>
+
 <!-- ajout des differents boutons filtres-->
 
 
 <div class="filteredList">
     <h3>Filtres</h3>
-    <i class="fas fa-money-bill-wave"></i>
+    <img src="icones/money-bill-wave-solid.svg" alt="Logo"
+    width="20"
+    height="20"></img>
     <button class="filter-option" data-filter="economique" tabindex="-1">Economique</button> 
-    <i class="fas fa-child"></i>
+    <img src="icones/child-solid.svg" alt="Logo"
+    width="20"
+    height="20"></img>
     <button class="filter-option" data-filter="familial" tabindex="-1">Familial</button> 
-    <i class="fas fa-heart"></i>
+    <img src="icones/heart-solid.svg" alt="Logo"
+    width="20"
+    height="20"></img>
     <button class="filter-option" data-filter="romantique" tabindex="-1">Romantique</button>
-    <i class="fas fa-dog"></i>
+    <img src="icones/dog-solid.svg" alt="Logo"
+    width="20"
+    height="20"></img>
     <button class="filter-option" data-filter="animaux" tabindex="-1">Animaux autorisés</button>  
    
 
@@ -66,8 +86,12 @@
     <section>
         <h1> Hébergements à Marseille</h1>
     <article>
+        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+        width="100"
+        height="50"
+        />
         <h3>Auberge de la Cannebière</h3>
-        <p>Nuit à partir de <strong>25€</strong></p>
+        <p>Nuit à partir de <span class="prix">25€</span></p>
     </article>    
     <article>
         <h3>Hôtel du port</h3>
@@ -90,7 +114,7 @@
         <p>Nuit à partir de <strong>96€</strong></p>
     </article>  
 
-    <h3><a href="#afficherplus">Afficher plus</a></h3>
+    <a href="#afficherplus">Afficher plus</a>
     </section>
 
     <aside>
@@ -130,22 +154,24 @@
 }
 -->      
 
-<footer>
-    <h3>A propos</h3>
-<div id="finpage">
-    <a href="#">Fonctionnement du site</a> <br>
-    <a href="#">Conditions générales de vente</a> <br>
-    <a href="#">Données et confidentialité</a>
-    
-    <h3>Nos Hébergements</h3>
-    <a href="#">Charte qualité</a> <br>
-    <a href="#">Soumettre votre hôtel</a> <br>
-    
-    <h3>Assistance</h3>
-    <a href="#">Centre d'aide</a> <br>
-    <a href="#">Nous Contacter</a>
-</div>
-</footer>
+    <footer>
+        <div id="pied_de_page">
+            <ul>
+                <li class="info">A propos</li>
+                <li><a href="#">Fonctionnement du site</a> </li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+                
+                <li class="info">Nos Hébergements</li>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a> </li>
+                
+                <li class="info">Assistance</li>
+                <li><a href="#">Centre d'aide</a> </li>
+                <li><a href="#">Nous Contacter</a></li>
+            </ul>
+        </div>
+    </footer>
 
         </body>
 </html>
