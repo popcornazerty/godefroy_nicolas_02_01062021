@@ -1,4 +1,79 @@
-font-family: 'Raleway', sans-serif;
+body
+{
+  width:90%;
+  margin:auto;
+}
+
+header /* Logo Reservia et menu */
+{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+header ul {
+  display:flex;
+  justify-content: space-between;
+  list-style:none;
+  width: 300px;
+ 
+  
+}
+header ul a {
+  color: black;
+  text-decoration: none;
+}
+
+header .active a, header .inscrire a
+{
+  color:#0065FC; 
+}
+
+header .inscrire a
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+section h1
+{
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+section p
+{
+  font-size: small;
+  margin-top: 5px;
+}
+
+#logo_recherche {
+  background-color: grey;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  display: inline-block;
+  width: 20px;
+  
+  
+}
+
+#logo_recherche img
+{
+  width:50%;
+  height:50%;
+  margin
+}
+
+
+body
+{
+
+font-family: 'Raleway';
+}
+
+.prix {
+  font-weight: bold;
+}
 
 /*Filtres redirection sur un element de la page*/
 
