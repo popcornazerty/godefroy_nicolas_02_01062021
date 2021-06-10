@@ -2,14 +2,14 @@ font-family: 'Raleway', sans-serif;
 
 /*Filtres redirection sur un element de la page*/
 
-button[data-filter="economique"]:focus ~ div:not([class*="Economique"]) {
+  button[data-filter="economique"]:focus ~ div:not([class*="Economique"]) {
     display:none;
   }
   
   button[data-filter="familial"]:focus ~ div:not([class*="Familial"]) {
     display:none;
   }
-  
+
   button[data-filter="romantique"]:focus ~ div:not([class*="Romantique"]) {
     display:none;
   }
@@ -17,11 +17,11 @@ button[data-filter="economique"]:focus ~ div:not([class*="Economique"]) {
     display:none;
   }
 
-  .filter-option {
-    background: #76B3FA;
+  .button {
+    background: #fff;
     border-radius: 100px;
     padding: 20px 60px;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 1.45em;
     margin: 0 15px;
