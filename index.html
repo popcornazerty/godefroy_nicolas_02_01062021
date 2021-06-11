@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">       
@@ -32,24 +33,21 @@
 <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
 <p>En plein centre ville ou en pleine nature</p>
 
+
 <form class="search-box" action="/search">
-     
-        <div id="logo_recherche"> <img    src="icones/map-marker-alt-solid.svg" alt="Logo"
-                
-                ></img>
-            </div>
-            
-
-            <input class="ville" type="search" placeholder="Marseille, France">
-
-            <button class="" >Rechercher</button>
+    <label id="logo_recherche" for="marecherche"><i id="logo_img" class="fas fa-map-marker-alt"></i></label>
+    <input id="marecherche" class="ville" type="search" placeholder="Marseille, France">
+    <button class="button_rechercher">Rechercher</button>
 </form>
+
+
+
 
 <!-- ajout des differents boutons filtres-->
 
 
-<div class="filteredList">
-    <h3>Filtres</h3>
+<form class="filteredList">
+    <div id="filtre"> Filtres</div>
     <img src="icones/money-bill-wave-solid.svg" alt="Logo"
     width="20"
     height="20"></img>
@@ -66,12 +64,12 @@
     width="20"
     height="20"></img>
     <button class="filter-option" data-filter="animaux" tabindex="-1">Animaux autorisés</button>  
-   
+</form>
 
 
     <div class="info">&#8505;
         <span class="infobulle">Plus de 500 logements sont disponibles dans cette ville</span>
-      </div>
+    </div>
      </section>
 
 
@@ -83,8 +81,10 @@
     </header>
     
  
-    <section>
+    <section class="fond_section">
+        <div id="marseille">
         <h1> Hébergements à Marseille</h1>
+    </div>
     <article>
         <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
         width="100"
@@ -117,7 +117,7 @@
     <a href="#afficherplus">Afficher plus</a>
     </section>
 
-    <aside>
+    <aside class="fond_aside">
         <article>
             <h3>Hôtel Le soleil du matin</h3>
             <p>Nuit à partir de <strong>128€</strong></p>  

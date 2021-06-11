@@ -47,23 +47,54 @@ section p
   margin-top: 5px;
 }
 
+
+
+
+
+.search-box {
+  display: flex;
+  justify-content: flex-start;
+   /* horizontal */
+}
+
 #logo_recherche {
-  background-color: grey;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  display: inline-block;
-  width: 20px;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  background-color:#edf2f4;
+  width: 35px;
+  height: 30px;
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  border-color:blueviolet;
   
-  
+
 }
 
-#logo_recherche img
-{
-  width:50%;
+#logo_recherche #logo_img {
+  width: 50%;
   height:50%;
-  margin
+  
+  
+}
+::placeholder
+{
+color:black;
+font-weight: bold;
 }
 
+.button_rechercher
+{
+  background-color:#0065FC;
+  color: white;
+  border:none;
+  border-top-right-radius: 13%;
+  border-bottom-right-radius: 13%;
+  font-family: 'Raleway';
+  font-size: x-small;
+  font-weight: bold;
+  
+}
 
 body
 {
@@ -75,7 +106,29 @@ font-family: 'Raleway';
   font-weight: bold;
 }
 
+h3
+{
+  font-size: small;
+}
 /*Filtres redirection sur un element de la page*/
+
+.filteredList
+{
+  display:flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+#filtre
+{
+  display:flex;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: small;
+  
+}
 
   button[data-filter="economique"]:focus ~ div:not([class*="Economique"]) {
     display:none;
@@ -100,4 +153,45 @@ font-family: 'Raleway';
     text-decoration: none;
     font-size: 1.45em;
     margin: 0 15px;
+  }
+
+  /*Balise info + 500 logements dispo*/
+
+  
+  .infobulle
+  {
+    font-size: smaller;
+    
+  }
+
+  /*Partie section hebergements Marseille*/
+
+  .fond_section
+  {
+    background-color:#edf2f4;
+    border-radius: 3%; 
+    margin-top: 20px;
+    /*display:flex;
+    flex-grow: 5;
+    align-items:center;*/
+  }
+
+  #marseille
+  {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+
+
+  /*Partie les plus populaire*/
+
+  .fond_aside
+  {
+    background-color:#edf2f4;
+    border-radius: 3%;
+    
+    
+    
   }
