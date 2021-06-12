@@ -195,3 +195,32 @@ h3
     
     
   }
+
+  /*partie footer*/
+
+  footer ul {
+    
+    list-style:none;
+  }
+  footer ul a {
+    color: black;
+    text-decoration: none;
+  }
+  .info
+  { 
+  font-weight: bold;  
+  }
+
+  
+  
+
+  #pied_de_page
+  {
+    display:flex;
+    justify-content:space-between;
+  }
+
+
+
+
+ 
