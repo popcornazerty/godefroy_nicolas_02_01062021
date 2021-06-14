@@ -172,9 +172,15 @@ color:#0065FC;
 }
 
 #populaire {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
   margin-bottom: 50px;
   margin-top: 10px;
   margin-left: 20px;
+  margin-right: 40px;
+
+  
 }
 
 /*partie footer*/
