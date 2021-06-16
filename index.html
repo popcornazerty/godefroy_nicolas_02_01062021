@@ -10,7 +10,8 @@
 					<title>Reservia</title>
 				</head>
 				<body>
-					<!--logo-->
+                   <section id="bloc_page">
+                       				<!--logo-->
 					<header>
 						<div id="logo">
 							<img src="images/logo/Reservia.svg" alt="Logo de Reservia"/>
@@ -19,13 +20,13 @@
 						<nav>
 							<ul>
 								<li class="active">
-									<a href="#">Hébergements</a>
+									<a href="#"class="surlignage">Hébergements </a>
 								</li>
 								<li>
-									<a href="#">Activités</a>
+									<a href="#"class="surlignage">Activités</a>
 								</li>
 								<li class="inscrire">
-									<a href="#">S'inscrire</a>
+									<a href="#"class="surlignage">S'inscrire</a>
 								</li>
 							</ul>
 						</nav>
@@ -36,31 +37,65 @@
 						<p>En plein centre ville ou en pleine nature</p>
 						<form class="search-box" action="/search">
 							<label id="logo_recherche" for="marecherche">
-								<i id="logo_img" class="fas fa-map-marker-alt"></i>
+								<i id="logo_img" class="fas fa-map-marker-alt fa-xs"></i>
 							</label>
 							<input id="marecherche" class="ville" type="search" placeholder="Marseille, France">
 								<button class="button_rechercher">Rechercher</button>
 							</form>
-							<!-- ajout des differents boutons filtres-->
-							<form class="filteredList">
-								<div id="filtre"> Filtres</div>
-								<img src="icones/money-bill-wave-solid.svg" alt="Logo"
-    width="20"
-    height="20"></img>
-								<button class="filter-option" data-filter="economique" tabindex="-1">Economique</button>
-								<img src="icones/child-solid.svg" alt="Logo"
-    width="20"
-    height="20"></img>
-								<button class="filter-option" data-filter="familial" tabindex="-1">Familial</button>
-								<img src="icones/heart-solid.svg" alt="Logo"
-    width="20"
-    height="20"></img>
-								<button class="filter-option" data-filter="romantique" tabindex="-1">Romantique</button>
-								<img src="icones/dog-solid.svg" alt="Logo"
-    width="20"
-    height="20"></img>
-								<button class="filter-option" data-filter="animaux" tabindex="-1">Animaux autorisés</button>
-							</form>
+
+
+
+						<!--TEST-->
+						
+						
+						<span id="textfiltre">Filtres</span>	
+						<div class="filter">
+							
+							<span>
+								<i class="fas fa-money-bill-wave fa-xs dollar"></i>
+							  
+							</span>
+							
+					
+						
+						<span>Économique</span>
+						  </div>	
+
+
+						  <div class="filter">
+							<span>
+				
+								<i class="fas fa-child fa-xs family"></i>
+							  
+							</span>
+							
+					
+						
+						<span>Familial</span>
+						  </div>
+						  
+						  
+
+						  <div class="filter">
+							  <span>
+							<i class="fas fa-heart fa-xs romance"></i>
+						</span>
+							<span>Romantique</span>
+						  </div>	
+
+						  <div class="filter">
+							<span>
+								<i class="fas fa-dog fa-xs dog"></i>
+							  
+							</span>
+							
+						 
+						
+						<span>Animaux autorisés</span>
+						  </div>
+					
+
+                        
 							<div class="info">&#8505;
         
 								<span class="infobulle">Plus de 500 logements sont disponibles dans cette ville</span>
@@ -71,11 +106,11 @@
 						<div id="marseille">
 							<h1> Hébergements à Marseille</h1>
 						</div>
+						<div id="toto">
 						<article class="fond_article">
-							<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-        width="100"
-        height="50"
-        />
+							
+							<img src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+       />
 							<h3>Auberge de la Cannebière</h3>
 							<p>Nuit à partir de 
 								<span class="prix">25€</span></p>
@@ -83,7 +118,7 @@
                                </p> 
 						</article>
                         <article class="fond_article">
-							<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+							<img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
         width="100"
         height="50"
         />
@@ -97,7 +132,7 @@
 							
 						</article>
                         <article class="fond_article">
-							<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+							<img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
         width="100"
         height="50"
         />
@@ -108,8 +143,11 @@
                              <p>   <span><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blank"></i></span>
                             
 						</article>
+					</div>
+
                         <article class="fond_article">
-                        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+
+                        <img src="images/hebergements/3_medium.jpg"
                         width="100"
                         height="50"
                         />
@@ -154,7 +192,8 @@
 					
                        
                     </div>  
-                     <article>
+                    <div id="bloc_article">
+                     <article class="fond_article">
 						<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                             width="100"
                             height="50"
@@ -167,37 +206,57 @@
                             </p> 
                         
 						</article>
-                    
-						<article>
+                  
+						<article class="fond_article">
+                            <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            width="100"
+                            height="50"
+                            />
 							<h3>Au coeur de l'eau 
 								<br> Chambres d'hôtes
 								</h3>
-								<p>Nuit à partir de 
-									<strong>71€</strong>
-								</p>
+                                <p>Nuit à partir de 
+                                    <span class="prix">71€ </span>
+                                </p>
+                                <p> <span><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blank"></i></span>
+                                </p> 
 							</article>
-							<article>
+							<article class="fond_article">
+                                <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                width="100"
+                                height="50"
+                                />
 								<h3>Hôtel Tout bleu et 
 									<br> Blanc
 									</h3>
-									<p>Nuit à partir de 
-										<strong>68€</strong>
-									</p>
+                                    <p>Nuit à partir de 
+                                        <span class="prix">68€ </span>
+                                    </p>
+                                    <p> <span><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blue"></i><i class="fas fa-star stars_blank"></i></span>
+                                    </p> 
                                
 								</article>
                           
 							</aside>
-                   </section>
+                   </div></section>
 							<section>
 								<h1> Activités à Marseille</h1>
+                            <div class="vertical_img">
+                                <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                width="100"
+                                height="50"
+                                />
+                                <p>Vieux Port</p>
+                            </div>    
 							</section>
+                            <!--
 							<div class="media">
 								<div class="image">
 									<img src="img.svg" alt="Logo">
 									</div>
 									<div class="content">Vieux Port</div>
 								</div>
-								<!--A ajouter en CSS 
+								A ajouter en CSS 
 .media {
     display: flex;
     align-items: flex-start;
@@ -208,9 +267,7 @@
     padding: 10px;
 }
 -->
-								<footer>
-                                    <footer class="fond_footer">
-									<div id="pied_de_page">
+								<footer class="footer">                             
 										<div id="bloc_a_propos">
 											<ul>
 												<li class="info">A Propos</li>
@@ -248,7 +305,9 @@
 											</ul>
 										</div>
 									
-								</div>
-							</footer>
+								
+                                </footer>
+                   </section> 
+	
 						</body>
 					</html>
