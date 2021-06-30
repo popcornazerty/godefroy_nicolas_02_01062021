@@ -260,7 +260,7 @@ h3 {
   font-size: smaller;
 }
 
-/*Partie section Hebergements a Marseille + Les plus populaires*/
+/*Partie section Hebergements a Marseille*/
 
 h3{
   font-size: medium;
@@ -276,16 +276,16 @@ h3{
   background:#F2F2F2;
   margin-top: 10px;
   width: 70%;
-  height:500px;
-  padding-left: 20px;
-  padding-right: 20px;
+  height:420px;
+  padding-left: 27px;
+  padding-right: 5px;
 }
 
 #wrapper-area #flex-area{
     display:flex;
     flex-wrap:wrap;
-    gap:30px; 
-    width: 100%;
+    gap:20px; 
+   
 }
 
 
@@ -294,6 +294,7 @@ h3{
     color:#000000;
     display:block;
     width: calc((100% / 3) - 20px);
+    height:137px;
     background:#ffffff;
     padding:3px;
     border-radius:10px;
@@ -309,13 +310,18 @@ h3{
   
 }
 #flex-area a *:not(img){
-  
+/*  
     margin-left:10px;
     display:inline-block;
     width:100%;
-    margin-top:5px;
+*/
+margin-left: 2px;
+display: flex;
+flex-wrap: wrap;
+line-height: 1.5em;;   
+} 
+
   
-}
 #flex-area a span:first-of-type{
    
      font-weight:bold;
@@ -344,7 +350,7 @@ h3{
 }
 
 h4{
-  margin-top: -10px;
+  margin-top: 5px;
   font-size: small;
 }
 
@@ -355,8 +361,8 @@ h4{
 #wrapper-most-popular {
   padding:10px 20px 10px 20px;
   border-radius:15px;
-  width: 40%;
-  height:500px;
+  width: 35%;
+  height:420px;
   background: #F2F2F2;
   position: relative;
   margin-top: 10px;
@@ -386,7 +392,7 @@ h4{
   
   display:flex;
   flex-direction:column;
-  gap:45px;
+  gap:20px;
   text-align: left;
 
 }
@@ -403,6 +409,9 @@ h4{
   box-shadow: 1px 0px 3px 0px rgba(158,158,158,1);
   display:flex;
 }
+
+
+
 #most-populars-flex a img:first-child{
     
     width:40%;
@@ -418,6 +427,7 @@ h4{
   position:relative;
 
 }
+
 #most-populars-flex a div:first-of-type *{
   
   display:inline-block;
@@ -440,6 +450,7 @@ h4{
 #most-populars-flex a div:first-of-type div:last-child{
  
  position:absolute;
+ display:inline-flex;
  bottom:5px;
  left:0;
  padding-bottom:0;
@@ -452,7 +463,15 @@ h4{
 
 }
 
+#most-populars-flex a div:first-of-type .blue-icon path{
+    
+  fill:#0065FC;
 
+}
+#most-populars-flex a div:first-of-type .grey-icon path{
+
+  fill:#F2F2F2;
+}
 
 
 
@@ -464,7 +483,7 @@ h5{
 }
   
  
-}
+
 #marseille-activities{
     margin-top:50px;
   
@@ -473,7 +492,13 @@ h5{
      
     display:flex;
     gap:30px;
-  
+}
+#marseille-activities-flex-child{
+      height: 170px;
+}
+
+#marseille-activities-flex-child .marseille-activities-flex-child a{
+  height:70px
 }
 #marseille-activities-flex .marseille-activities-flex-child {
     border-radius:15px;
@@ -600,4 +625,5 @@ footer {
   background-color: #edf2f4;
   padding: 30px;
   padding-top: 10px;
+  margin-top: 50px;
 }
