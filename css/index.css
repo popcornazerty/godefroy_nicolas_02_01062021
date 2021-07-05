@@ -512,7 +512,7 @@ h4 {
 */
 
 .marseille-activities-flex-child #pomegues {
-    height: 130px;
+    height: 52%;
 }
 
 #marseille-activities-flex .marseille-activities-flex-child {
@@ -567,11 +567,11 @@ h4 {
 }
 
 .marseille-activities-flex-child a:last-child img {
-    height: 65% !important;
+    height: 66% !important;
 }
 
 .marseille-activities-flex-child:nth-child(2) a:last-child {
-    height: 45%;
+    height: 41%;
 }
 
 .marseille-activities-flex-child:last-child a:first-child {
