@@ -11,8 +11,8 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     overflow-x: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header
@@ -598,7 +598,7 @@ footer ul {
     padding-left: 0px;
     display: inline-block;
     height: 110px;
-    padding-inline-start: 20px;
+    padding-inline-start: 30px;
 }
 
 footer ul li {
