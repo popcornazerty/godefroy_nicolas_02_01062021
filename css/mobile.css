@@ -1,7 +1,48 @@
-@media all and (min-width:320px) and (max-width:812px) {
-    header {
-        color: red;
-        width: auto;
-        text-align: left;
+@media screen and (max-width: 767px) {
+    /* .wrapper-most-popular {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .wrapper-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }*/
+    /* Partie Activités à Marseille*/
+    #marseille-activities-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #marseille-activities-flex .marseille-activities-flex-child {
+        width: 100%;
+        height: -20%;
+    }
+    .marseille-activities-flex-child:nth-child(2) a:last-child {
+        height: 45%;
+    }
+    /* Partie Footer mobile*/
+    footer {
+        display: block;
+        flex-direction: column;
+        align-self: center;
+        height: 377px;
+    }
+    footer #bloc_a_propos,
+    #bloc_nos_hebergement {
+        height: 115px;
+    }
+    footer #bloc_assistance {
+        height: 70px;
+    }
+    footer #bloc_nos_hebergement {
+        margin-top: 15px;
+    }
+    footer ul li a {
+        font-size: 0.8em;
+        margin-top: 6px;
+    }
+    footer h5 {
+        margin-bottom: 9px;
     }
 }
