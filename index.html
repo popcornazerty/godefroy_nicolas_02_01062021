@@ -34,7 +34,7 @@
                         <a href="#activite-titre" class="surlignage">Activités</a>
                     </li>
                     <li class="inscrire">
-                        <a href="#" class="surlignage">S'inscrire</a>
+                        <a href="#sinscrire" class="surlignage">S'inscrire</a>
                     </li>
                 </ul>
             </nav>
@@ -43,34 +43,37 @@
 
 
         <section>
-            <h2 class="sous-titre un">Trouvez votre Hébergement pour des vacances de rêve</h2>
-            <p>En plein centre ville ou en pleine nature</p>
-            <form class="search-box">
-                <label id="logo_recherche" for="marecherche">
-					<i id="logo_img" class="fas fa-map-marker-alt fa-xs"></i>
-				</label>
-                <input id="marecherche" class="ville" type="search" placeholder="Marseille, France">
-                <button class="button_rechercher">Rechercher</button>
-            </form>
+            <div id="bloc-recherche">
+                <h2 class="sous-titre un">Trouvez votre Hébergement pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+                <form class="search-box">
+                    <label id="logo_recherche" for="marecherche">
+						<i id="logo_img" class="fas fa-map-marker-alt fa-xs"></i>
+					</label>
+                    <input id="marecherche" class="ville" type="search" placeholder="Marseille, France">
+                    <button class="button_rechercher">Rechercher</button>
+                </form>
+            </div>
             <!--Filtres-->
-            <span id="textfiltre">Filtres</span>
-            <div class="filter">
-                <span><i class="fas fa-money-bill-wave fa-xs dollar"></i></span>
-                <span>Économique</span>
+            <div id="bloc-filtre">
+                <span id="textfiltre">Filtres</span>
+                <div class="filter">
+                    <span><i class="fas fa-money-bill-wave fa-xs dollar"></i></span>
+                    <span>Économique</span>
+                </div>
+                <div class="filter">
+                    <span><i class="fas fa-child fa-xs family"></i></span>
+                    <span>Familial</span>
+                </div>
+                <div class="filter">
+                    <span><i class="fas fa-heart fa-xs romance"></i></span>
+                    <span>Romantique</span>
+                </div>
+                <div class="filter">
+                    <span><i class="fas fa-dog fa-xs dog"></i></span>
+                    <span>Animaux autorisés</span>
+                </div>
             </div>
-            <div class="filter">
-                <span><i class="fas fa-child fa-xs family"></i></span>
-                <span>Familial</span>
-            </div>
-            <div class="filter">
-                <span><i class="fas fa-heart fa-xs romance"></i></span>
-                <span>Romantique</span>
-            </div>
-            <div class="filter">
-                <span><i class="fas fa-dog fa-xs dog"></i></span>
-                <span>Animaux autorisés</span>
-            </div>
-
 
             <div class="info">
 
@@ -260,7 +263,7 @@
                     </a>
 
 
-                    <a href="#">
+                    <a href="#" id="frioul">
 
                         <img src="images/activites/3_medium/iles-du-frioul.jpg" alt="Iles du Frioul" />
 
@@ -270,7 +273,7 @@
 
 
                 </div>
-                <a href="#" class="marseille-activities-flex-child">
+                <a href="#" id="calanques" class="marseille-activities-flex-child">
 
                     <img src="images/activites/1_xlarge/parc-national.jpg" alt="Parc National des Calanques" />
 
@@ -279,13 +282,13 @@
 
                 <div class="marseille-activities-flex-child">
 
-                    <a href="#">
+                    <a href="#" id="notre-dame">
                         <img src="images/activites/3_medium/notre-dame.jpg" alt="Note Dame De la Garde">
                         <h4 class="titre-carte">Notre Dame de-la-Garde</h4>
 
                     </a>
 
-                    <a href="#">
+                    <a href="#" id="parc-longchamp">
                         <img src="images/activites/3_medium/parc-longchamp.jpg" alt="Parc Longchamp">
 
                         <h4 class="titre-carte">Parc Longchamp</h4>

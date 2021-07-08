@@ -1,25 +1,117 @@
 @media screen and (max-width: 767px) {
-    /* .wrapper-most-popular {
+    /*Partie Header*/
+    /*Menu Navigation*/
+    nav ul {
+        border-bottom: 2px solid #F2F2F2;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0px;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        align-items: flex-end;
+        margin-top: 20px;
     }
-    .wrapper-area {
+   
+    nav a:hover {
+        border-top: none;
+    }
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    nav li {
+        width: 100%;
+    }
+    .surlignage:hover{
+        
+    }
+    .surlignage{
+        width: 100%;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 25px;
+        border-top: none;
+    
+    }
+    nav a {
+        width: 100%;
+    }
+
+    .inscrire{
+        display: none;
+       
+    }
+    .infobulle, .info{
+        display: none;
+    }
+    /*Titre trouvez hebergement pour vacances de rêve*/
+    h2,
+    section p,
+    #bloc-recherche,
+    #bloc-filtre {
+        display: none;
+    }
+    /*Filtre*/
+    .filter {
+        display: inline-block;
+        justify-items: baseline;
+    }
+    /*Partie Hebergement à Marseille*/
+    #wrapper-area{
+        display: none;
+    }
+    #flex-area{
+        margin-top: 80px;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }*/
+        flex-wrap: wrap;
+        order:2;
+    }
+ 
+   
+    #wrapper-most-popular {
+        width: 100%;
+        margin-top: 80px;
+        border-radius: none!important;
+    }
+    #bloc_page #wrapper-most-popular #wrapper-area {
+        display: none;
+    }
     /* Partie Activités à Marseille*/
     #marseille-activities-flex {
         display: flex;
         flex-direction: column;
+        gap: 20px;
+    }
+    /*CARTE 1*/
+    .marseille-activities-flex-child img {
+        height: 75%;
     }
     #marseille-activities-flex .marseille-activities-flex-child {
         width: 100%;
-        height: -20%;
+        height: 150px
     }
-    .marseille-activities-flex-child:nth-child(2) a:last-child {
-        height: 45%;
+    /*CARTE 2*/
+    .marseille-activities-flex-child #pomegues {
+        width: 100%;
+        height: 150px
+    }
+    /*CARTE 3*/
+    .marseille-activities-flex-child #frioul {
+        width: 100%;
+        height: 150px;
+    }
+    /*CARTE 4*/
+    .marseille-activities-flex .marseille-activities-flex-child #calanques {
+        width: 100%;
+        height: 150px;
+    }
+    /*CARTE 5*/
+    .marseille-activities-flex-child #notre-dame {
+        width: 100%;
+        height: 150px;
+    }
+    /*CARTE 6*/
+    .marseille-activities-flex .marseille-activities-flex-child #longchamp {
+        width: 100%;
+        height: 150px;
     }
     /* Partie Footer mobile*/
     footer {
