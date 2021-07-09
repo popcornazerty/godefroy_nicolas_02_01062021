@@ -9,6 +9,8 @@
         display: flex;
         align-items: flex-end;
         margin-top: 20px;
+        position: relative;
+        right: 122px;
     }
    
     nav a:hover {
@@ -21,38 +23,55 @@
     nav li {
         width: 100%;
     }
-    .surlignage:hover{
+    
         
-    }
+    
     .surlignage{
         width: 100%;
         border-bottom: 2px solid #0065FC;
-        padding-bottom: 25px;
+        padding-bottom: 1px;
         border-top: none;
-    
     }
     nav a {
         width: 100%;
     }
 
-    .inscrire{
-        display: none;
+    #sinscrire{
+        display: flex;
        
     }
     .infobulle, .info{
-        display: none;
+        margin-top: 20px;
     }
     /*Titre trouvez hebergement pour vacances de rêve*/
-    h2,
-    section p,
+    
+    
     #bloc-recherche,
     #bloc-filtre {
         display: none;
     }
+    
+    /*section p*/
+    #bloc-recherche{
+        display:block;
+        margin-top: 70px;
+    }
+
     /*Filtre*/
     .filter {
         display: inline-block;
         justify-items: baseline;
+        margin-top: 8px;
+    }
+    #bloc-filtre{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    #filtre-responsive{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: baseline;     
     }
     /*Partie Hebergement à Marseille*/
     #wrapper-area{
@@ -68,7 +87,6 @@
    
     #wrapper-most-popular {
         width: 100%;
-        margin-top: 80px;
         border-radius: none!important;
     }
     #bloc_page #wrapper-most-popular #wrapper-area {
