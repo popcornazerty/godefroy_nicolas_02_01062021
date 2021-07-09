@@ -26,19 +26,23 @@
     
         
     
-    .surlignage{
-        width: 100%;
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 1px;
-        border-top: none;
-    }
+    .surlignage:hover{
+        
+            border-bottom: 2px solid #0065fc;
+            border-top: none;
+            
+        }
+    
     nav a {
         width: 100%;
     }
 
     #sinscrire{
-        display: flex;
-       
+        position: relative;
+        bottom: 50px;
+        border-bottom: none;
+        font-weight: bold;
+        color: #0065fc;  
     }
     .infobulle, .info{
         margin-top: 20px;
