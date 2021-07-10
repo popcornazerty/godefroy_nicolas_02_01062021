@@ -1,9 +1,9 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
     /*Partie Header*/
     /*Menu Navigation*/
     nav ul {
         border-bottom: 2px solid #F2F2F2;
-        width: 100%;
+       
         max-width: 100%;
         padding-left: 0px;
         display: flex;
@@ -12,7 +12,7 @@
         position: relative;
         right: 122px;
     }
-   
+    
     nav a:hover {
         border-top: none;
     }
@@ -24,7 +24,6 @@
         width: 100%;
     }
     
-        
     
     .surlignage:hover{
         
@@ -36,8 +35,13 @@
     nav a {
         width: 100%;
     }
-
-    #sinscrire{
+    
+    #menu2{
+        position: relative;
+        left:75px;
+    }
+    
+    #menu3{
         position: relative;
         bottom: 50px;
         border-bottom: none;
@@ -92,6 +96,7 @@
     #wrapper-most-popular {
         width: 100%;
         border-radius: none!important;
+        
     }
     #bloc_page #wrapper-most-popular #wrapper-area {
         display: none;
@@ -159,4 +164,32 @@
     footer h5 {
         margin-bottom: 9px;
     }
+}
+
+
+@media (width: 768px) {
+    #wrapper-area{
+        display: none;
+    }
+    #flex-area{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        order:2;
+    }
+    #most-populars-flex{
+        display: flex;
+        flex-direction: row;
+    }
+   
+    #wrapper-most-popular {
+        width: 100%;
+        border-radius: none!important;
+        height:5%
+        
+    }
+    #bloc_page #wrapper-most-popular #wrapper-area {
+        display: none;
+    }
+    
 }
