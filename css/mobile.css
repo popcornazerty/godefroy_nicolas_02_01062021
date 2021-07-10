@@ -1,4 +1,9 @@
 @media screen and (max-width: 576px) {
+    #bloc_page {
+      
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     /*Partie Header*/
     /*Menu Navigation*/
     nav ul {
@@ -29,9 +34,9 @@
         
             border-bottom: 2px solid #0065fc;
             border-top: none;
-            
         }
     
+  
     nav a {
         width: 100%;
     }
@@ -81,22 +86,42 @@
         flex-wrap: wrap;
         align-items: baseline;     
     }
-    /*Partie Hebergement à Marseille*/
-    #wrapper-area{
-        display: none;
+    #textfiltre {
+      
+        float:none;
+        margin-top: 0px;
     }
-    #flex-area{
-        margin-top: 80px;
+    /*Partie Hebergement à Marseille*/
+   
+    #wrapper-area{
         display: flex;
         flex-wrap: wrap;
         order:2;
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        background-color: white;
+        
+   }
+
+
+    #wrapper-all-lodgings{
+        display:block;
     }
- 
+   
+    #flex-area{
+        
+        display: flex;
+        flex-direction: column;  
+    }
+ #flex-area a{
+ width: 100%;
+ }
    
     #wrapper-most-popular {
         width: 100%;
         border-radius: none!important;
-        
+   
     }
     #bloc_page #wrapper-most-popular #wrapper-area {
         display: none;
@@ -168,9 +193,7 @@
 
 
 @media (width: 768px) {
-    #wrapper-area{
-        display: none;
-    }
+   
     #flex-area{
         margin-top: 80px;
         display: flex;

@@ -157,6 +157,8 @@ h3 {
     font-size: small;
     font-weight: bold;
     margin-right: 10px;
+    float:left;
+    margin-top: 5px;
 }
 
 .filter {
