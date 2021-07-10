@@ -138,20 +138,18 @@
     }
     #marseille-activities-flex .marseille-activities-flex-child {
         width: 100%;
-        height: 150px
+        
     }
     /*CARTE 2*/
     .marseille-activities-flex-child #pomegues {
         width: 100%;
-        height: 150px
-    }
-    /*CARTE 3*/
-    .marseille-activities-flex-child #frioul {
-        width: 100%;
         height: 150px;
     }
-    /*CARTE 4*/
-    .marseille-activities-flex .marseille-activities-flex-child #calanques {
+
+    /*CARTE 1 et 4*/
+    #marseille-activities-flex #calanques,
+    #marseille-activities-flex #vieux-port,
+    #marseille-activities-flex #frioul {
         width: 100%;
         height: 150px;
     }
