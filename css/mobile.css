@@ -43,11 +43,12 @@
     
     #menu2{
         position: relative;
-        left:75px;
+        left:70%;
     }
     
     #menu3{
         position: relative;
+        right: 20%;
         bottom: 50px;
         border-bottom: none;
         font-weight: bold;
@@ -56,21 +57,57 @@
     .infobulle, .info{
         margin-top: 20px;
     }
-    /*Titre trouvez hebergement pour vacances de rêve*/
+/****************Titre trouvez hebergement pour vacances de rêve************/
     
+.title1{
+    font-size: x-large;
+}
+  
     
-    #bloc-recherche,
-    #bloc-filtre {
-        display: none;
-    }
-    
-    /*section p*/
+/*******************section p**********************/
     #bloc-recherche{
         display:block;
         margin-top: 70px;
     }
+    section p{
+        margin-bottom: 25px;
+    }
+/**********************Bouton Rechercher*********************/
 
-    /*Filtre*/
+.button_rechercher{
+display: none;
+}
+
+
+button.fas.fa-search{
+    display: block;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    position: relative;
+    right:5px;
+    cursor: pointer;
+    width: 30px;
+}
+.fa-search:before{
+font-size: smaller;    
+}
+#marecherche.ville{
+    padding-right:10%;
+}
+section p{
+    font-size: 1em;
+}
+
+.infobulle, .info{
+    font-size: 14px;
+}
+
+/***********************Filtre*****************************/
     .filter {
         display: inline-block;
         justify-items: baseline;
@@ -90,6 +127,18 @@
       
         float:none;
         margin-top: 0px;
+    }
+    /*Les plus populaires*/
+
+    #wrapper-most-popular {
+    
+        border-radius: 0px;
+        height:5%;
+        width: 112%;
+        right: 6%;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     /*Partie Hebergement à Marseille*/
    
@@ -114,15 +163,10 @@
         display: flex;
         flex-direction: column;  
     }
- #flex-area a{
- width: 100%;
- }
-   
-    #wrapper-most-popular {
-        width: 100%;
-        border-radius: none!important;
-   
+    #flex-area a{
+    width: 100%;
     }
+ 
     #bloc_page #wrapper-most-popular #wrapper-area {
         display: none;
     }
@@ -146,23 +190,26 @@
         height: 150px;
     }
 
-    /*CARTE 1 et 4*/
+    /*CARTE 1 à 6*/
     #marseille-activities-flex #calanques,
     #marseille-activities-flex #vieux-port,
-    #marseille-activities-flex #frioul {
+    #marseille-activities-flex #frioul, .marseille-activities-flex #notre-dame, .marseille-activities-flex #longchamp {
         width: 100%;
         height: 150px;
     }
-    /*CARTE 5*/
+    
+
+    /*CARTE 5
     .marseille-activities-flex-child #notre-dame {
         width: 100%;
         height: 150px;
     }
-    /*CARTE 6*/
+    /*CARTE 6
     .marseille-activities-flex .marseille-activities-flex-child #longchamp {
         width: 100%;
         height: 150px;
     }
+    
     /* Partie Footer mobile*/
     footer {
         display: block;
@@ -192,25 +239,19 @@
 
 @media (width: 768px) {
    
-    #flex-area{
-        margin-top: 80px;
-        display: flex;
-        flex-wrap: wrap;
-        order:2;
-    }
-    #most-populars-flex{
-        display: flex;
-        flex-direction: row;
-    }
-   
-    #wrapper-most-popular {
-        width: 100%;
-        border-radius: none!important;
-        height:5%
-        
-    }
-    #bloc_page #wrapper-most-popular #wrapper-area {
-        display: none;
-    }
+#flex-area a span:first-of-type{
+    font-size: 0.6em;
+} 
+
+#most-populars-flex a div:first-of-type{
+    padding: 12px;
+}
+
+#most-populars-flex a div:first-of-type span:nth-last-child(2){
+    margin-top: 0px;
+}
+
+#logo{
+    position: relative;
     
 }
