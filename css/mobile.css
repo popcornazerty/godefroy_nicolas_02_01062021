@@ -1,10 +1,7 @@
 @media screen and (max-width: 576px) {
-    #bloc_page {
-      
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  
     /*Partie Header*/
+  
     /*Menu Navigation*/
     nav ul {
         border-bottom: 2px solid #F2F2F2;
@@ -138,6 +135,7 @@ section p{
         right: 6%;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         
     }
     /*Partie Hebergement à Marseille*/
@@ -238,20 +236,53 @@ section p{
 
 
 @media (width: 768px) {
-   
-#flex-area a span:first-of-type{
-    font-size: 0.6em;
-} 
 
-#most-populars-flex a div:first-of-type{
-    padding: 12px;
+
+#wrapper-all-lodgings{
+flex-direction: column;    
 }
 
-#most-populars-flex a div:first-of-type span:nth-last-child(2){
-    margin-top: 0px;
-}
 
-#logo{
-    position: relative;
+#wrapper-area{
+    display: flex;
+    order:2;
+    flex-wrap: wrap;
+    width: 100%;
+}   
+/* 
+#wrapper-most-popular{
     
+    width: 100%;
+    flex-direction: column;
+    
+}
+*/
+/******OU*******/
+
+#most-populars-flex{
+    flex-direction: row;
+}
+#wrapper-most-popular{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+#most-populars-flex a{
+    height:127px
+}
+#most-populars-flex a img:first-child{
+    width: 60%;
+}
+#most-populars-flex a div:first-of-type span:nth-child(2){
+  bottom: 30%;
+}
+
+
+
+
+#most-populars-flex a div:first-of-type h2:first-child{
+ top:-26%
+}
 }

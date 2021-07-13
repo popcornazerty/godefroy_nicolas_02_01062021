@@ -20,6 +20,7 @@ header
 
 {
     display: flex;
+    padding: 0px;
 }
 
 header nav {
@@ -459,12 +460,14 @@ h4 {
 #most-populars-flex a div:first-of-type h2:first-child {
     font-weight: bold;
     font-size: 0.7rem;
-    margin-top: -10px;
+    position: relative;
+    top:-36%;  
 }
 
 #most-populars-flex a div:first-of-type span:nth-child(2) {
     font-size: 0.6rem;
-    margin-top: 6px;
+    position: relative;
+    bottom: 52%;
 }
 
 #most-populars-flex a div:first-of-type div:last-child {
@@ -640,7 +643,3 @@ footer {
 
 
 
-header{
-    padding-left: 20px;
-    padding-right: 20px;
-}
