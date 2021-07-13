@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-  
+
     /*Partie Header*/
   
     /*Menu Navigation*/
@@ -125,14 +125,18 @@ section p{
         float:none;
         margin-top: 0px;
     }
+    /*Les plus populaires + Hebergement Marseille*/
+    #wrapper-all-lodgings{
+        gap: 0;
+    }
     /*Les plus populaires*/
 
     #wrapper-most-popular {
     
         border-radius: 0px;
         height:5%;
-        width: 112%;
-        right: 6%;
+        width: 121%;
+        right: 10%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -153,7 +157,9 @@ section p{
 
 
     #wrapper-all-lodgings{
-        display:block;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
    
     #flex-area{
