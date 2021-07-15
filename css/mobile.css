@@ -1,0 +1,317 @@
+@media screen and (max-width: 576px) {
+
+    /*Partie Header*/
+
+    /*Menu Navigation*/
+    nav ul {
+        border-bottom: 2px solid #F2F2F2;
+        display: flex;
+        position: relative;
+        top:50px;
+        right:71px
+    }
+    header ul{
+        height:30%;
+        right:21%;
+    }
+    header ul li{
+        padding-left: 37px;
+        margin-left: 0;
+    }
+    nav a:hover {
+        border-top: none;
+    }
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    nav li {
+        width: 100%;
+    }
+
+
+    a#menu1.surlignage:hover{
+
+            border-bottom: 2px solid #0065fc;
+            border-top: none;
+            padding-bottom: 6px;
+        }
+    a#menu2.surlignage:hover{
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+        padding-bottom: 6px;
+    }
+
+    a#menu3.surlignage{
+        border:none;
+    }
+
+        nav a {
+            width: 100%;
+        }
+    
+        #menu2{
+            position: relative;
+            left:70%;
+        }
+    
+        #menu3{
+            position: relative;
+            right: 20%;
+            bottom: 50px;
+            border-bottom: none;
+            font-weight: bold;
+            color: #0065fc;
+        }
+    li.active{
+        width: 100%;
+    }    
+    .infobulle, .info{
+        margin-top: 20px;
+    }
+/****************Titre trouvez hebergement pour vacances de rêve************/
+
+.title1{
+    font-size: x-large;
+}
+
+
+/*******************section p**********************/
+    #bloc-recherche{
+        display:block;
+        margin-top: 70px;
+    }
+    section p{
+        margin-bottom: 25px;
+    }
+/**********************Bouton Rechercher*********************/
+
+.button_rechercher{
+display: none;
+}
+
+
+button.fas.fa-search{
+    display: block;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    position: relative;
+    right:4%;
+    cursor: pointer;
+    width: 15%;
+}
+.fa-search:before{
+font-size: smaller;
+}
+#logo_recherche{
+    width: 15%;
+    height: 40px;
+}
+#marecherche.ville{
+    padding-right:23%;
+    padding-left: 5%;
+}
+section p{
+    font-size: 1em;
+}
+
+.infobulle, .info{
+    font-size: 14px;
+}
+
+
+
+/***********************Filtre*****************************/
+    .filter {
+        display: inline-block;
+        justify-items: baseline;
+        margin-top: 8px;
+    }
+    #bloc-filtre{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    #filtre-responsive{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    #textfiltre {
+
+        float:none;
+        margin-top: 0px;
+    }
+
+
+    /*Les plus populaires + Hebergement Marseille*/
+    #wrapper-all-lodgings{
+        gap: 0;
+    }
+    /*Les plus populaires*/
+
+    #wrapper-most-popular {
+
+        border-radius: 0px;
+        height:5%;
+        width: 121%;
+        right: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 35px;
+
+    }
+    /*Partie Hebergement à Marseille*/
+
+    #wrapper-area{
+        display: flex;
+        flex-wrap: wrap;
+        order:2;
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        background-color: white;
+
+   }
+
+
+    #wrapper-all-lodgings{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #flex-area{
+
+        display: flex;
+        flex-direction: column;
+    }
+    #flex-area a{
+    width: 100%;
+    }
+
+    #bloc_page #wrapper-most-popular #wrapper-area {
+        display: none;
+    }
+    /* Partie Activités à Marseille*/
+    #marseille-activities-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /*CARTE 1*/
+    .marseille-activities-flex-child img {
+        height: 75%;
+    }
+    #marseille-activities-flex .marseille-activities-flex-child {
+        width: 100%;
+
+    }
+    /*CARTE 2*/
+    .marseille-activities-flex-child #pomegues {
+        width: 100%;
+        height: 150px;
+    }
+
+    /*CARTE 1 à 6*/
+    #marseille-activities-flex #calanques,
+    #marseille-activities-flex #vieux-port,
+    #marseille-activities-flex #frioul, .marseille-activities-flex #notre-dame, .marseille-activities-flex #longchamp {
+        width: 100%;
+        height: 150px;
+    }
+
+
+    /*CARTE 5
+    .marseille-activities-flex-child #notre-dame {
+        width: 100%;
+        height: 150px;
+    }
+    /*CARTE 6
+    .marseille-activities-flex .marseille-activities-flex-child #longchamp {
+        width: 100%;
+        height: 150px;
+    }
+
+    /* Partie Footer mobile*/
+    footer {
+        display: block;
+        flex-direction: column;
+        align-self: center;
+        height: 377px;
+    }
+    footer #bloc_a_propos,
+    #bloc_nos_hebergement {
+        height: 115px;
+    }
+    footer #bloc_assistance {
+        height: 70px;
+    }
+    footer #bloc_nos_hebergement {
+        margin-top: 15px;
+    }
+    footer ul li a {
+        font-size: 0.8em;
+        margin-top: 6px;
+    }
+    footer h5 {
+        margin-bottom: 9px;
+    }
+}
+
+
+@media (width: 768px) {
+
+
+#wrapper-all-lodgings{
+flex-direction: column;
+}
+
+
+#wrapper-area{
+    display: flex;
+    order:2;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/*
+#wrapper-most-popular{
+
+    width: 100%;
+    flex-direction: column;
+
+}
+*/
+/******OU*******/
+
+#most-populars-flex{
+    flex-direction: row;
+}
+#wrapper-most-popular{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+#most-populars-flex a{
+    height:127px
+}
+#most-populars-flex a img:first-child{
+    width: 45%;
+}
+#most-populars-flex a div:first-of-type span:nth-child(2){
+  bottom: 30%;
+}
+
+
+
+
+#most-populars-flex a div:first-of-type h2:first-child{
+ top:-26%
+}
+}
