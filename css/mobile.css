@@ -1,20 +1,23 @@
 @media screen and (max-width: 576px) {
 
     /*Partie Header*/
-  
+
     /*Menu Navigation*/
     nav ul {
         border-bottom: 2px solid #F2F2F2;
-       
-        max-width: 100%;
-        padding-left: 0px;
         display: flex;
-        align-items: flex-end;
-        margin-top: 20px;
         position: relative;
-        right: 122px;
+        top:50px;
+        right:71px
     }
-    
+    header ul{
+        height:30%;
+        right:21%;
+    }
+    header ul li{
+        padding-left: 37px;
+        margin-left: 0;
+    }
     nav a:hover {
         border-top: none;
     }
@@ -25,42 +28,54 @@
     nav li {
         width: 100%;
     }
-    
-    
-    .surlignage:hover{
-        
+
+
+    a#menu1.surlignage:hover{
+
             border-bottom: 2px solid #0065fc;
             border-top: none;
+            padding-bottom: 6px;
+        }
+    a#menu2.surlignage:hover{
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+        padding-bottom: 6px;
+    }
+
+    a#menu3.surlignage{
+        border:none;
+    }
+
+        nav a {
+            width: 100%;
         }
     
-  
-    nav a {
+        #menu2{
+            position: relative;
+            left:70%;
+        }
+    
+        #menu3{
+            position: relative;
+            right: 20%;
+            bottom: 50px;
+            border-bottom: none;
+            font-weight: bold;
+            color: #0065fc;
+        }
+    li.active{
         width: 100%;
-    }
-    
-    #menu2{
-        position: relative;
-        left:70%;
-    }
-    
-    #menu3{
-        position: relative;
-        right: 20%;
-        bottom: 50px;
-        border-bottom: none;
-        font-weight: bold;
-        color: #0065fc;  
-    }
+    }    
     .infobulle, .info{
         margin-top: 20px;
     }
 /****************Titre trouvez hebergement pour vacances de rêve************/
-    
+
 .title1{
     font-size: x-large;
 }
-  
-    
+
+
 /*******************section p**********************/
     #bloc-recherche{
         display:block;
@@ -81,20 +96,22 @@ button.fas.fa-search{
     background-color: #0065fc;
     color: white;
     border: none;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
-    border-top-left-radius: 20%;
-    border-bottom-left-radius: 20%;
+    border-radius: 30%;
     position: relative;
-    right:5px;
+    right:4%;
     cursor: pointer;
-    width: 30px;
+    width: 15%;
 }
 .fa-search:before{
-font-size: smaller;    
+font-size: smaller;
+}
+#logo_recherche{
+    width: 15%;
+    height: 40px;
 }
 #marecherche.ville{
-    padding-right:10%;
+    padding-right:23%;
+    padding-left: 5%;
 }
 section p{
     font-size: 1em;
@@ -103,6 +120,8 @@ section p{
 .infobulle, .info{
     font-size: 14px;
 }
+
+
 
 /***********************Filtre*****************************/
     .filter {
@@ -118,13 +137,15 @@ section p{
     #filtre-responsive{
         display:flex;
         flex-wrap: wrap;
-        align-items: baseline;     
+        align-items: baseline;
     }
     #textfiltre {
-      
+
         float:none;
         margin-top: 0px;
     }
+
+
     /*Les plus populaires + Hebergement Marseille*/
     #wrapper-all-lodgings{
         gap: 0;
@@ -132,7 +153,7 @@ section p{
     /*Les plus populaires*/
 
     #wrapper-most-popular {
-    
+
         border-radius: 0px;
         height:5%;
         width: 121%;
@@ -140,10 +161,11 @@ section p{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        
+        padding-bottom: 35px;
+
     }
     /*Partie Hebergement à Marseille*/
-   
+
     #wrapper-area{
         display: flex;
         flex-wrap: wrap;
@@ -152,7 +174,7 @@ section p{
         height: auto;
         padding: 10px 0px;
         background-color: white;
-        
+
    }
 
 
@@ -161,16 +183,16 @@ section p{
         flex-wrap: wrap;
         flex-direction: column;
     }
-   
+
     #flex-area{
-        
+
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
     }
     #flex-area a{
     width: 100%;
     }
- 
+
     #bloc_page #wrapper-most-popular #wrapper-area {
         display: none;
     }
@@ -186,7 +208,7 @@ section p{
     }
     #marseille-activities-flex .marseille-activities-flex-child {
         width: 100%;
-        
+
     }
     /*CARTE 2*/
     .marseille-activities-flex-child #pomegues {
@@ -201,7 +223,7 @@ section p{
         width: 100%;
         height: 150px;
     }
-    
+
 
     /*CARTE 5
     .marseille-activities-flex-child #notre-dame {
@@ -213,7 +235,7 @@ section p{
         width: 100%;
         height: 150px;
     }
-    
+
     /* Partie Footer mobile*/
     footer {
         display: block;
@@ -245,7 +267,7 @@ section p{
 
 
 #wrapper-all-lodgings{
-flex-direction: column;    
+flex-direction: column;
 }
 
 
@@ -254,13 +276,13 @@ flex-direction: column;
     order:2;
     flex-wrap: wrap;
     width: 100%;
-}   
-/* 
+}
+/*
 #wrapper-most-popular{
-    
+
     width: 100%;
     flex-direction: column;
-    
+
 }
 */
 /******OU*******/
@@ -274,12 +296,13 @@ flex-direction: column;
     height: 100%;
     width: 100%;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 #most-populars-flex a{
     height:127px
 }
 #most-populars-flex a img:first-child{
-    width: 60%;
+    width: 45%;
 }
 #most-populars-flex a div:first-of-type span:nth-child(2){
   bottom: 30%;

@@ -31,10 +31,10 @@
                         <a href="#hebergement-titre" id="menu1" class="surlignage">Hébergements </a>
                     </li>
                     <li>
-                        <a href="#activite-titre" id="menu2"class="surlignage">Activités</a>
+                        <a href="#activite-titre" id="menu2" class="surlignage">Activités</a>
                     </li>
                     <li class="inscrire">
-                        <a href="#" id="menu3"class="surlignage">S'inscrire</a>
+                        <a href="#" id="menu3" class="surlignage">S'inscrire</a>
                     </li>
                 </ul>
             </nav>
@@ -52,11 +52,11 @@
 					</label>
                     <input id="marecherche" class="ville" type="search" placeholder="Marseille, France">
                     <button class="button_rechercher">Rechercher</button>
-                    <button class="fas fa-search"></i></button>
+                    <button class="fas fa-search"></button>
                 </form>
             </div>
             <!--Filtres-->
-            <div id="bloc-filtre"></div>
+            <div id="bloc-filtre">
                 <span id="textfiltre">Filtres</span>
                     <div id="filtre-responsive">
                         <div class="filter">
@@ -75,7 +75,7 @@
                             <span><i class="fas fa-dog fa-xs dog"></i></span>
                             <span>Animaux autorisés</span>
                         </div>
-                    </div>    
+                    </div>
             </div>
 
             <div class="info">
@@ -96,14 +96,12 @@
             <section id="wrapper-area">
                 <!-- Hebergements a Marseille + Les plus populaires -->
                 <h3 class="sous-titre" id="hebergement_titre">Hébergements à Marseille</h3>
-                <section id="flex-area">
+                <div id="flex-area">
                     <!-- Carte 1 -->
-                    
-                    <a href="#">
-                        
-                        <source media="(max-width:576px)" srcset="images/Hebergements/4_small/auberge-cannebiere.jpg">
+
+                    <a href="#"> 
                         <img src="images/hebergements/3_medium/auberge-cannebiere.jpg" alt="Auberge" />
-                        
+
                             <span>Auberge la Cannebière</span>
                             <span>Nuit a partir de 25€</span>
                             <div>
@@ -114,7 +112,7 @@
                                 <svg role="img" class="grey-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
                             </div>
                         </a>
-                    
+
                     <!-- Carte 2 -->
                     <a href="#">
                         <img src="images/hebergements/3_medium/hotel-port.jpg" alt="Hotel" />
@@ -183,7 +181,7 @@
 
                     </a>
                     <div id="afficher">Afficher plus</div>
-                </section>
+                </div>
             </section>
 
             <!--Zone hebergements les plus populaires-->

@@ -1,3 +1,6 @@
+/*INDEX.CSS*/
+
+
 * {
     box-sizing: border-box;
 }
@@ -53,7 +56,7 @@ header ul li a {
 
 .surlignage:hover {
     border-top: 2px solid #0065fc;
-    padding-top: 37px;
+    padding-top: 38px;
 }
 
 header .sinscrire a {
@@ -62,7 +65,10 @@ header .sinscrire a {
     color: #0065fc;
 }
 
-
+a#menu3.surlignage{
+    font-weight: bold;
+    color:#0065fc
+}
 /*classe commune sous titres*/
 
 .sous-titre {
@@ -347,7 +353,7 @@ h3 {
 }
 
 #flex-area a *:not(img) {
-    /*  
+    /*
       margin-left:10px;
       display:inline-block;
       width:100%;
@@ -461,7 +467,7 @@ h4 {
     font-weight: bold;
     font-size: 0.7rem;
     position: relative;
-    top:-36%;  
+    top:-36%;
 }
 
 #most-populars-flex a div:first-of-type span:nth-child(2) {
@@ -607,7 +613,8 @@ footer ul {
     padding-left: 0px;
     display: inline-block;
     height: 110px;
-    padding-inline-start: 30px;
+    padding-left: 30px;
+   
 }
 
 footer ul li {
@@ -640,6 +647,3 @@ footer {
     padding: 0px 30px 15px 0px;
     margin-top: 38px;
 }
-
-
-
