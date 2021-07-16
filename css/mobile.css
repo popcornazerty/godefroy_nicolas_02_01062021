@@ -8,7 +8,7 @@
         display: flex;
         position: relative;
         top:50px;
-        right:71px
+        
     }
     header ul{
         height:30%;
@@ -17,55 +17,34 @@
     header ul li{
         padding-left: 37px;
         margin-left: 0;
+        display: block;
+  
     }
-    nav a:hover {
-        border-top: none;
-    }
-    nav {
-        width: 100%;
-        max-width: 100%;
-    }
-    nav li {
-        width: 100%;
-    }
-
-
-    a#menu1.surlignage:hover{
-
-            border-bottom: 2px solid #0065fc;
-            border-top: none;
-            padding-bottom: 6px;
-        }
-    a#menu2.surlignage:hover{
+  /*Hebergement + Activites hover surlignage*/
+    a#menu1.surlignage:hover, a#menu2.surlignage:hover{
         border-bottom: 2px solid #0065fc;
         border-top: none;
         padding-bottom: 6px;
     }
+  
 
+   /*Texte s'inscrire*/ 
     a#menu3.surlignage{
         border:none;
     }
 
-        nav a {
-            width: 100%;
-        }
-    
-        #menu2{
-            position: relative;
-            left:70%;
-        }
-    
-        #menu3{
-            position: relative;
-            right: 20%;
-            bottom: 50px;
-            border-bottom: none;
-            font-weight: bold;
-            color: #0065fc;
-        }
-    li.active{
-        width: 100%;
-    }    
+    /*Emplacement texte s'inscrire*/  
+           
+    #menu3{
+        position: relative;
+        right: 20%;
+        bottom: 50px;
+        border-bottom: none;
+        font-weight: bold;
+        color: #0065fc;
+    }
+   
+/*Emplacement infobulle*/ 
     .infobulle, .info{
         margin-top: 20px;
     }
@@ -90,7 +69,7 @@
 display: none;
 }
 
-
+/**************Icone recherche mobile**************/
 button.fas.fa-search{
     display: block;
     background-color: #0065fc;
@@ -102,6 +81,8 @@ button.fas.fa-search{
     cursor: pointer;
     width: 15%;
 }
+
+/**************dismensions icone**************/
 .fa-search:before{
 font-size: smaller;
 }
@@ -109,6 +90,8 @@ font-size: smaller;
     width: 15%;
     height: 40px;
 }
+
+/**************champ recherche**************/
 #marecherche.ville{
     padding-right:23%;
     padding-left: 5%;
@@ -208,33 +191,41 @@ section p{
     }
     #marseille-activities-flex .marseille-activities-flex-child {
         width: 100%;
+        height: 0%;
 
     }
-    /*CARTE 2*/
+
+     /*CARTE 1*/
+    #marseille-activities-flex #vieux-port{
+    width: 100%;
+    height: 150px;
+    }
+
+       /*CARTE 2*/
     .marseille-activities-flex-child #pomegues {
-        width: 100%;
-        height: 150px;
+    width: 100%;
+    height: 150px;
     }
-
-    /*CARTE 1 à 6*/
+    /*CARTE 3 et 4*/
+ 
     #marseille-activities-flex #calanques,
-    #marseille-activities-flex #vieux-port,
-    #marseille-activities-flex #frioul, .marseille-activities-flex #notre-dame, .marseille-activities-flex #longchamp {
+    #marseille-activities-flex #frioul
+    {
         width: 100%;
         height: 150px;
     }
-
-
-    /*CARTE 5
-    .marseille-activities-flex-child #notre-dame {
+   
+    /*CARTE 5 Notre Dame*/
+    .marseille-activities-flex-child:last-child a:first-child{
         width: 100%;
-        height: 150px;
+        height: 150px;  
     }
-    /*CARTE 6
-    .marseille-activities-flex .marseille-activities-flex-child #longchamp {
+     /*CARTE 6 Parc Longchamp*/
+     .marseille-activities-flex-child:last-child a:last-child {
         width: 100%;
-        height: 150px;
+        height: 150px;    
     }
+  
 
     /* Partie Footer mobile*/
     footer {
@@ -264,32 +255,25 @@ section p{
 
 
 @media (width: 768px) {
-
-
+/******Div deux blocs populaires et hebergements marseille*******/
 #wrapper-all-lodgings{
 flex-direction: column;
 }
-
-
+/******Emplacement bloc hebergement marseille*******/        
 #wrapper-area{
     display: flex;
     order:2;
     flex-wrap: wrap;
     width: 100%;
-}
-/*
-#wrapper-most-popular{
+    }        
 
-    width: 100%;
-    flex-direction: column;
 
-}
-*/
-/******OU*******/
+/******Groupement 3 cartes horizontales les plus populaires*******/
 
 #most-populars-flex{
     flex-direction: row;
 }
+/******Bloc entier Les plus populaires*******/
 #wrapper-most-popular{
     display: flex;
     flex-wrap: wrap;
@@ -298,19 +282,19 @@ flex-direction: column;
     flex-direction: column;
     padding-bottom: 30px;
 }
+/******Taille 3 cartes*******/
 #most-populars-flex a{
     height:127px
 }
+/******Dimensions image hotel les plus populaires*******/
 #most-populars-flex a img:first-child{
     width: 45%;
 }
+/******Emplacement texte "nuit à partir de" cartes les plus populaires*******/
 #most-populars-flex a div:first-of-type span:nth-child(2){
   bottom: 30%;
 }
-
-
-
-
+/******Emplacement titre des hotels *******/
 #most-populars-flex a div:first-of-type h2:first-child{
  top:-26%
 }

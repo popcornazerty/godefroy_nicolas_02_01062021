@@ -43,28 +43,18 @@ header ul li {
     height: 20px;
     margin-left: 40px;
     display: inline-block;
+    
 }
-
-header ul li a:hover {
-    color: #0065fc
-}
-
 header ul li a {
     color: black;
     text-decoration: none;
 }
-
+/*Hover*/
 .surlignage:hover {
     border-top: 2px solid #0065fc;
     padding-top: 38px;
 }
-
-header .sinscrire a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    color: #0065fc;
-}
-
+/*Menu S'inscrire*/
 a#menu3.surlignage{
     font-weight: bold;
     color:#0065fc
@@ -86,23 +76,16 @@ section p {
 }
 
 
-/*bouton recherche*/
+/*boite recherche*/
 
 .search-box {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 25px;
-    /* horizontal */
 }
 
 
-/*
-
-    .bouton_rechercher{
-    visibility: hidden;
-    }
-    */
-
+/*icone logo emplacement+fond gris*/
 #logo_recherche {
     display: flex;
     justify-content: center;
@@ -116,23 +99,18 @@ section p {
     border-bottom-left-radius: 25%;
     border: 1px solid #eeeeee;
 }
-
+/*input recherche contour*/
 #marecherche {
     border: 1px solid #eeeeee;
 }
-
-#logo_recherche #logo_img {
-    display: flex;
-    justify-content: center;
-}
-
- ::placeholder {
+/*Mise en page texte Marseille, France*/
+::placeholder {
     font-family: "Raleway", Verdana, Tahoma, sans-serif;
     color: black;
     font-weight: bold;
     padding-left: 5px;
 }
-
+/*Bouton cliquable rechercher*/
 .button_rechercher {
     display: block;
     background-color: #0065fc;
@@ -145,22 +123,13 @@ section p {
     font-weight: bold;
     cursor: pointer;
 }
+/*Icone loupe recherche mobile*/
 button.fas.fa-search{
     display: none;
 }
 body {
     font-family: "Raleway";
 }
-
-.prix {
-    font-weight: bold;
-}
-
-h3 {
-    font-size: small;
-}
-
-
 /*Filtres*/
 
 #textfiltre {
@@ -170,7 +139,7 @@ h3 {
     float:left;
     margin-top: 5px;
 }
-
+/*dimension & emplacement bulles filtres*/
 .filter {
     padding: 0px 15px 10px 0px;
     margin-right: 15px;
@@ -179,14 +148,15 @@ h3 {
     border-radius: 16px;
     height: 31px;
 }
-
+/*Mise en page fond couleur filtres*/
 .filter span:first-child {
+    display: inline-block;
     background: #DEEBFF;
     border-radius: 16px;
     width: 29px;
     height: 29px;
 }
-
+/*Mise en page icones filtres*/
 .filter .dollar {
     padding-top: 8px;
     padding-left: 7px;
@@ -214,58 +184,22 @@ h3 {
     padding-right: 9px;
     color: #0065fc;
 }
-
-.filter span {
-    display: inline-block;
-}
+/*Disposition elements texte span*/
 
 .filter span:last-child {
     margin-left: 7px;
-    transform: translate3d(0, 5px, 0);
-    vertical-align: top;
     font-size: small;
     font-weight: bold;
+    
 }
-
+/*Hover survol filtres*/
 .filter:hover {
     background: #DEEBFF;
     color: #6096ba;
     cursor: pointer;
 }
 
-
-/*Filtres redirection sur un element de la page
-
-    .filteredList {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-
-
-
-
-
-    #filtre {
-    display: flex;
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: small;
-
-    .button {
-    background: #fff;
-    border-radius: 100px;
-    padding: 20px 60px;
-    color: black;
-    text-decoration: none;
-    font-size: 1.45em;
-    margin: 0 15px;
-    }
-
-    /*Balise info + 500 logements dispo*/
-
+/*Icone information + texte*/
 .info .icone-info {
     color: #0065FC;
     padding-right: 5px;
@@ -282,40 +216,14 @@ h3 {
     font-size: 11px;
 }
 
-
-/*
-    .fa-info {
-      height: 23px;
-      width: 23px;
-      text-align: center;
-      border: 1px solid #dadada;
-      border-radius: 50px;
-      margin-right: 15px;
-      color: #0065FC;
-    }
-
-    .fa-info ::before {
-      width: 50px;
-    }
-
-    .infobulle {
-      font-size: smaller;
-    }
-
-    */
-
-
 /*Partie section Hebergements a Marseille*/
 
-h3 {
-    font-size: medium;
-}
-
+/*Blocs hebergement Marseille + Les plus populaire*/
 #wrapper-all-lodgings {
     display: flex;
     gap: 30px;
 }
-
+/*Blocs hebergement Marseille*/
 #wrapper-area {
     padding: 10px 30px 10px 30px;
     border-radius: 15px;
@@ -326,7 +234,7 @@ h3 {
     padding-left: 27px;
     padding-right: 5px;
 }
-
+/*Emplacement cartes Hebergement à Marseille*/
 #wrapper-area #flex-area {
     display: flex;
     flex-wrap: wrap;
@@ -344,42 +252,37 @@ h3 {
     border-radius: 10px;
     box-shadow: 1px 0px 3px 0px rgba(158, 158, 158, 1);
 }
-
+/*Taille images cartes*/
 #flex-area a img {
     object-fit: cover;
     width: 100%;
     height: 60%;
     border-radius: 10px 10px 0 0;
 }
-
+/*Selection ensemble sans l'image*/
 #flex-area a *:not(img) {
-    /*
-      margin-left:10px;
-      display:inline-block;
-      width:100%;
-    */
+  
     margin-left: 5px;
     display: flex;
-    flex-wrap: wrap;
     line-height: 1.5em;
-    ;
+    
 }
-
+/*Style et taille police cartes premier enfant*/
 #flex-area a span:first-of-type {
     font-weight: bold;
     font-size: 0.7rem;
 }
-
+/*Style et taille police cartes deuxieme enfant*/
 #flex-area a span:nth-of-type(2) {
     font-size: 0.6rem;
 }
-
+/*Sizing etoiles notations*/
 #flex-area a div:first-of-type svg {
     width: 10px;
     height: 14px;
     margin: 0;
 }
-
+/*Couleurs etoiles notation*/
 #flex-area a div:first-of-type .blue-icon path {
     fill: #0065FC;
 }
@@ -387,7 +290,7 @@ h3 {
 #flex-area a div:first-of-type .grey-icon path {
     fill: #F2F2F2;
 }
-
+/*Titres cartes Partie activités à marseille*/
 h4 {
     margin-top: 10px;
     margin-left: 10px;
@@ -407,25 +310,14 @@ h4 {
     margin-top: 10px;
 }
 
-#wrapper-most-popular h3 {
-    display: inline-block;
-}
 
+/*Titre les plus populaire + icone prix*/
 #groupement_titre_chart {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
-
-#wrapper-most-popular.right-icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-}
-
+/*Ensemble cartes les plus populaires*/
 #most-populars-flex {
     display: flex;
     flex-direction: column;
@@ -445,15 +337,15 @@ h4 {
     box-shadow: 1px 0px 3px 0px rgba(158, 158, 158, 1);
     display: flex;
 }
-
+/*Disposition images les plus populaires*/
 #most-populars-flex a img:first-child {
     width: 40%;
     border-radius: 10px 0 0 10px;
     object-fit: cover;
 }
-
+/*Disposition texte les plus populaires*/
 #most-populars-flex a div:first-of-type {
-    width: 60%;
+    
     padding: 15px;
     position: relative;
 }
@@ -475,7 +367,7 @@ h4 {
     position: relative;
     bottom: 52%;
 }
-
+/*Disposition etoile notation*/
 #most-populars-flex a div:first-of-type div:last-child {
     position: absolute;
     display: inline-flex;
@@ -483,7 +375,7 @@ h4 {
     left: 0;
     padding-bottom: 0;
 }
-
+/*Taille etoile notation*/
 #most-populars-flex a div:first-of-type div:last-child svg {
     width: 10px;
     height: 14px;
@@ -508,11 +400,11 @@ h4 {
 
 
 /*Activités à Marseille*/
-
+/*Section marseille activité*/
 #marseille-activities {
     margin-top: 50px;
 }
-
+/*bloc cartes*/
 #marseille-activities-flex {
     display: flex;
     gap: 30px;
@@ -520,16 +412,11 @@ h4 {
 }
 
 
-/*
-    #marseille-activities-flex-child .marseille-activities-flex-child a{
-    height:70px
-    }
-    */
-
+/*Taille carte Pomegues*/
 .marseille-activities-flex-child #pomegues {
     height: 52%;
 }
-
+/*Emplacement proportionnel cartes*/
 #marseille-activities-flex .marseille-activities-flex-child {
     border-radius: 15px;
     width: calc(100% / 4);
@@ -537,7 +424,7 @@ h4 {
     text-decoration: none;
     color: #000000;
 }
-
+/*Effet shadow cartes*/
 .marseille-activities-flex-child:first-child,
 .marseille-activities-flex-child:nth-child(3),
 .marseille-activities-flex-child:nth-child(2) a:first-child,
@@ -545,7 +432,7 @@ h4 {
 .marseille-activities-flex-child:last-child a {
     box-shadow: 1px 0px 3px 0px rgba(158, 158, 158, 1);
 }
-
+/*Tailles images*/
 .marseille-activities-flex-child img {
     width: 100%;
     height: 86%;
@@ -554,29 +441,25 @@ h4 {
     display: block;
 }
 
-.marseille-activities-flex-child p {
-    font-weight: bold;
-    margin-left: 15px;
-    display: inline-block;
-}
 
+/*Emplacement cartes*/
 .marseille-activities-flex-child:nth-child(2),
 .marseille-activities-flex-child:last-child {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
+/*Mise en forme titres cartes*/
 .marseille-activities-flex-child a {
     text-decoration: none;
     color: #000000;
 }
-
+/*Border cartes*/
 .marseille-activities-flex-child:nth-child(2) a,
 .marseille-activities-flex-child:last-child a {
     border-radius: 15px;
 }
-
+/*Espace image et partie titre*/
 .marseille-activities-flex-child a:first-child img {
     height: 75% !important;
 }
