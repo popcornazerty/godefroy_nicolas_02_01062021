@@ -1,15 +1,11 @@
 /*INDEX.CSS*/
-
-
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 #bloc_page {
     max-width: 1280px;
     margin: 0 auto;
@@ -17,41 +13,30 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
-
 /* Logo Reservia et menu */
-
-#barre-menu
-{
+#barre-menu {
     display: flex;
     justify-content: space-between;
     margin-right: 1%;
 }
-
 /*logo*/
-#logo
-{
+#logo {
     display:flex;
     margin-top: 1%;
     margin-left: 27px;
 }
-
 /*menu navigation*/
-nav
-{
+nav {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
-
-.menu_navig
-{   
+.menu_navig {
     min-width: 115px;
 }
-
 #navig2.menu_navig{
     margin-left: 15px;
 }
-.menu_navig a:link, .menu_navig a:visited
-{   
+.menu_navig a:link, .menu_navig a:visited {
     display: block;
     height: 35%;
     width: auto;
@@ -59,26 +44,18 @@ nav
     color: black;
     text-align: center;
     padding-top: 25%;
-    padding-bottom: 0%; 
+    padding-bottom: 0%;
 }
-
-#navig1 a:hover, #navig2 a:hover
-{
+#navig1 a:hover, #navig2 a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
-
-
-
-#bold_blue
-{
+#bold_blue {
     font-weight: bolder;
     color: #0065FC;
 }
-
 /*title*/
-#title
-{
+#title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -86,26 +63,19 @@ nav
     margin-left: 15px;
     line-height: 15px;
 }
-
-#logo_heb
-{   display: flex;
+#logo_heb {
+    display: flex;
     font-size: 17px;
     font-weight: bolder;
     height: 50px;
     width: auto;
     margin-bottom: 1%;
-    margin-left: 3.5%; 
-   
+    margin-left: 3.5%;
 }
-#logo_heb h2
-{
+#logo_heb h2 {
     padding-left: 0%;
-   
 }
-
-
-#logo_sec2
-{
+#logo_sec2 {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -114,44 +84,35 @@ nav
     margin-left: 5%;
     margin-bottom: 1.5%;
 }
-  
-
 /*classe commune sous titres*/
-
 .sous-titre {
     font-size: large;
 }
-
 .title1 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
 section p {
     font-size: 0.7em;
     margin-top: 8px;
 }
-
 /*Bloc recherche*/
 #bloc-recherche{
     padding-top: 20px;
 }
 /*boite recherche*/
-
 .search-box {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 25px;
 }
-
-
 /*icone logo emplacement+fond gris*/
 #logo_recherche {
     display: flex;
     justify-content: center;
-    /* horizontal */
+   /* horizontal */
     align-items: center;
-    /* vertical */
+   /* vertical */
     background-color: #edf2f4;
     width: 35px;
     height: 30px;
@@ -191,7 +152,6 @@ body {
     font-family: "Raleway";
 }
 /*Filtres*/
-
 #textfiltre {
     font-size: small;
     font-weight: bold;
@@ -223,21 +183,18 @@ body {
     padding-right: 8px;
     color: #0065fc;
 }
-
 .filter .family {
     padding-top: 8px;
     padding-left: 9px;
     padding-right: 9px;
     color: #0065fc;
 }
-
 .filter .romance {
     padding-top: 8px;
     padding-left: 8px;
     padding-right: 9px;
     color: #0065fc;
 }
-
 .filter .dog {
     padding-top: 7px;
     padding-left: 8px;
@@ -245,12 +202,10 @@ body {
     color: #0065fc;
 }
 /*Disposition elements texte span*/
-
 .filter span:last-child {
     margin-left: 7px;
     font-size: small;
     font-weight: bold;
-    
 }
 /*Hover survol filtres*/
 .filter:hover {
@@ -258,7 +213,6 @@ body {
     color: #6096ba;
     cursor: pointer;
 }
-
 /*Icone information + texte*/
 .info .icone-info {
     color: #0065FC;
@@ -271,13 +225,10 @@ body {
     font-size: 8px;
     margin-right: 5px;
 }
-
 .infobulle {
     font-size: 11px;
 }
-
 /*Partie section Hebergements a Marseille*/
-
 /*Blocs hebergement Marseille + Les plus populaire*/
 #wrapper-all-lodgings {
     display: flex;
@@ -300,7 +251,6 @@ body {
     flex-wrap: wrap;
     gap: 20px;
 }
-
 #flex-area a {
     text-decoration: none;
     color: #000000;
@@ -321,11 +271,9 @@ body {
 }
 /*Selection ensemble sans l'image*/
 #flex-area a *:not(img) {
-  
     margin-left: 5px;
     display: flex;
     line-height: 1.5em;
-    
 }
 /*Style et taille police cartes premier enfant*/
 #flex-area a span:first-of-type {
@@ -346,7 +294,6 @@ body {
 #flex-area a div:first-of-type .blue-icon path {
     fill: #0065FC;
 }
-
 #flex-area a div:first-of-type .grey-icon path {
     fill: #F2F2F2;
 }
@@ -356,10 +303,7 @@ h4 {
     margin-left: 10px;
     font-size: 0.7em;
 }
-
-
 /*Partie Les plus populaires*/
-
 #wrapper-most-popular {
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
@@ -369,8 +313,6 @@ h4 {
     position: relative;
     margin-top: 10px;
 }
-
-
 /*Titre les plus populaire + icone prix*/
 #groupement_titre_chart {
     display: flex;
@@ -384,7 +326,6 @@ h4 {
     gap: 20px;
     text-align: left;
 }
-
 #most-populars-flex a {
     text-decoration: none;
     color: #000000;
@@ -405,23 +346,19 @@ h4 {
 }
 /*Disposition texte les plus populaires*/
 #most-populars-flex a div:first-of-type {
-    
     padding: 15px;
     position: relative;
 }
-
 #most-populars-flex a div:first-of-type * {
     display: inline-block;
     width: 100%;
 }
-
 #most-populars-flex a div:first-of-type h2:first-child {
     font-weight: bold;
     font-size: 0.7rem;
     position: relative;
     top:-36%;
 }
-
 #most-populars-flex a div:first-of-type span:nth-child(2) {
     font-size: 0.6rem;
     position: relative;
@@ -441,24 +378,17 @@ h4 {
     height: 14px;
     margin: 0;
 }
-
 #most-populars-flex a div:first-of-type .blue-icon path {
     fill: #0065FC;
 }
-
 #most-populars-flex a div:first-of-type .grey-icon path {
     fill: #F2F2F2;
 }
-
-
 /*Afficher Plus*/
-
 #afficher {
     font-size: small;
     font-weight: bold;
 }
-
-
 /*Activités à Marseille*/
 /*Section marseille activité*/
 #marseille-activities {
@@ -470,8 +400,6 @@ h4 {
     gap: 30px;
     margin-bottom: 15px;
 }
-
-
 /*Taille carte Pomegues*/
 .marseille-activities-flex-child #pomegues {
     height: 52%;
@@ -485,11 +413,7 @@ h4 {
     color: #000000;
 }
 /*Effet shadow cartes*/
-.marseille-activities-flex-child:first-child,
-.marseille-activities-flex-child:nth-child(3),
-.marseille-activities-flex-child:nth-child(2) a:first-child,
-.marseille-activities-flex-child:nth-child(2) a:last-child,
-.marseille-activities-flex-child:last-child a {
+.marseille-activities-flex-child:first-child, .marseille-activities-flex-child:nth-child(3), .marseille-activities-flex-child:nth-child(2) a:first-child, .marseille-activities-flex-child:nth-child(2) a:last-child, .marseille-activities-flex-child:last-child a {
     box-shadow: 1px 0px 3px 0px rgba(158, 158, 158, 1);
 }
 /*Tailles images*/
@@ -500,11 +424,8 @@ h4 {
     object-fit: cover;
     display: block;
 }
-
-
 /*Emplacement cartes*/
-.marseille-activities-flex-child:nth-child(2),
-.marseille-activities-flex-child:last-child {
+.marseille-activities-flex-child:nth-child(2), .marseille-activities-flex-child:last-child {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -515,73 +436,57 @@ h4 {
     color: #000000;
 }
 /*Border cartes*/
-.marseille-activities-flex-child:nth-child(2) a,
-.marseille-activities-flex-child:last-child a {
+.marseille-activities-flex-child:nth-child(2) a, .marseille-activities-flex-child:last-child a {
     border-radius: 15px;
 }
 /*Espace image et partie titre*/
 .marseille-activities-flex-child a:first-child img {
     height: 75%;
 }
-
 .marseille-activities-flex-child a:last-child img {
     height: 67%;
 }
-
 .marseille-activities-flex-child:nth-child(2) a:last-child {
     height: 42%;
 }
-
 .marseille-activities-flex-child:last-child a:first-child {
     height: 45%;
 }
-
 .marseille-activities-flex-child:last-child a:last-child {
     height: calc(59% - 30px);
 }
-
 .marseille-activities-flex-child:last-child a:first-child img {
     height: 70%;
 }
-
 .marseille-activities-flex-child:last-child a:last-child img {
     height: 70%;
 }
-
-
 /* Partie Footer */
-
 footer ul {
     list-style: none;
     padding-left: 0px;
     display: inline-block;
     height: 110px;
     padding-left: 30px;
-   
 }
-
 footer ul li {
     margin-top: 5px;
 }
-
 footer ul li a {
     color: black;
     text-decoration: none;
     font-size: 0.7em;
 }
-
 .info {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: small;
 }
-
 h5 {
     font-size: small;
     margin-top: 15px;
     margin-bottom: 5px;
 }
-
 footer {
     display: flex;
     gap: 130px;
