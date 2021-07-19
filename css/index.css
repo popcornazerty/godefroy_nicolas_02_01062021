@@ -530,11 +530,11 @@ h4 {
 }
 /*Espace image et partie titre*/
 .marseille-activities-flex-child a:first-child img {
-    height: 75% !important;
+    height: 75%;
 }
 
 .marseille-activities-flex-child a:last-child img {
-    height: 67% !important;
+    height: 67%;
 }
 
 .marseille-activities-flex-child:nth-child(2) a:last-child {
@@ -550,11 +550,11 @@ h4 {
 }
 
 .marseille-activities-flex-child:last-child a:first-child img {
-    height: 70% !important;
+    height: 70%;
 }
 
 .marseille-activities-flex-child:last-child a:last-child img {
-    height: 70% !important;
+    height: 70%;
 }
 
 

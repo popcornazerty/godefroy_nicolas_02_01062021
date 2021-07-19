@@ -242,12 +242,22 @@ section p{
     .marseille-activities-flex-child img {
         height: 75%;
     }
+  
     #marseille-activities-flex .marseille-activities-flex-child {
         width: 100%;
         height: 0%;
 
     }
+    .marseille-activities-flex-child a:last-child img {
+        height: 75%;
+    }
 
+    .marseille-activities-flex-child:last-child a:first-child img {
+        height: 75%;
+    }
+    .marseille-activities-flex-child:last-child a:last-child img {
+        height: 75%;
+    }
      /*CARTE 1*/
     #marseille-activities-flex #vieux-port{
     width: 100%;
