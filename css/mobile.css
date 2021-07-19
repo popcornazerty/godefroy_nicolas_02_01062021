@@ -1,364 +1,291 @@
 @media screen and (max-width: 576px) {
-/*TEST TEST*/
+    /*TEST TEST*/
     /*Partie Header*/
-
-   
-       
-        #barre-menu
-        {
-            width: 99%;
-            height: 130px;
-            margin-left: 0%; 
-            margin-bottom: 0%; 
-        }
-    
-        #logo
-        {
-           position: relative;
-          bottom:25px;
- 
-        }
-    
-        nav
-        {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            width: 100%;
-            height: 133px;
-            position: absolute;   
-        }
-      
-        #navig1 
-        {
-            height: 30%;
-            width: 50%;
-            margin-left: 0%;
-            text-align: start;   
-        }
-    
-        #navig2
-        {
-            
-            height: 30%;
-            width: 49%;
-            text-align: end;
-            margin-right: 0%; 
-        }
-    
-        #navig3
-        {
-            margin-bottom: 4%;
-            margin-left: 25%;
-            margin-right: 3%;
-            height: 25%;
-            width: 27%;  
-            padding-top:15px; 
-        }
-    
-        #navig1 a, #navig2 a, #navig3 a
-        {
-    
-            height: 80%;
-            
-            padding: 0;
-        }
-        #navig1 a:link, #navig2 a:link,
-        #navig1 a:visited, #navig2 a:visited
-        {
-            border-bottom: 2px solid #f2f2f2;
-           
-        }
-        
-        #navig1 a:hover, #navig2 a:hover
-        {   
-            border-top:none;
-            border-bottom: 2px solid #0065FC;
-            color: #0065FC;
-        }
-    
-        #logo_sec2
-        { 
-            width: 92%;
-            margin-left: auto;
-            margin-right: auto;
-            
-            
-        }
-        #logo_sec2 h2
-        {
-            padding-left: 0%;
-    
-        }
-        #logo_heb h2
-        {
-            padding-left: 0%;
-        }
-       
-    
-
-
-
-/*Emplacement infobulle*/ 
-    .infobulle, .info{
-        margin-top: 20px;
+     #barre-menu {
+         width: 99%;
+         height: 130px;
+         margin-left: 0%;
+         margin-bottom: 0%;
     }
-/****************Titre trouvez hebergement pour vacances de rêve************/
-#bloc-recherche{
-    padding:5px;
-}
-.title1{
-    font-size: x-large;
-}
-
-
-/*******************section p**********************/
-   
-    section p{
-        margin-bottom: 25px;
+     #logo {
+         position: relative;
+         bottom:25px;
     }
-/**********************Bouton Rechercher*********************/
-
-.button_rechercher{
-display: none;
-}
-
-/**************Icone recherche mobile**************/
-button.fas.fa-search{
-    display: block;
-    background-color: #0065fc;
-    color: white;
-    border: none;
-    border-radius: 30%;
-    position: relative;
-    right:4%;
-    cursor: pointer;
-    width: 15%;
-}
-
-/**************dismensions icone**************/
-.fa-search:before{
-font-size: smaller;
-}
-#logo_recherche{
-    width: 15%;
-    height: 40px;
-}
-
-/**************champ recherche**************/
-#marecherche.ville{
-    padding-right:23%;
-    padding-left: 5%;
-}
-section p{
-    font-size: 1em;
-}
-
-.infobulle, .info{
-    font-size: 14px;
-}
-
-
-
-/***********************Filtre*****************************/
-    .filter {
-        display: inline-block;
-        justify-items: baseline;
-        margin-top: 8px;
+     nav {
+         display: flex;
+         flex-wrap: wrap-reverse;
+         width: 100%;
+         height: 133px;
+         position: absolute;
     }
-    #bloc-filtre{
-        display:flex;
-        flex-wrap: wrap;
-        align-items: baseline;
+     #navig2.menu_navig{
+         margin:0px 
     }
-    #filtre-responsive{
-        display:flex;
-        flex-wrap: wrap;
-        align-items: baseline;
+     #navig1 {
+         height: 30%;
+         width: 50%;
+         margin-left: 0%;
+         text-align: start;
     }
-    #textfiltre {
-
-        float:none;
-        margin-top: 0px;
+     #navig2 {
+         height: 30%;
+         width: 50%;
+         text-align: end;
+         margin-right: 0%;
     }
-
-
+     #navig3 {
+         margin-bottom: 4%;
+         margin-left: 25%;
+         margin-right: 3%;
+         height: 25%;
+         width: 27%;
+         padding-top:15px;
+    }
+     #navig1 a, #navig2 a, #navig3 a {
+         height: 80%;
+         padding: 0;
+    }
+     #navig1 a:link, #navig2 a:link, #navig1 a:visited, #navig2 a:visited {
+         border-bottom: 2px solid #f2f2f2;
+    }
+     #navig1 a:hover, #navig2 a:hover {
+         border-top:none;
+         border-bottom: 2px solid #0065FC;
+         color: #0065FC;
+    }
+     #logo_sec2 {
+         width: 92%;
+         margin-left: auto;
+         margin-right: auto;
+    }
+     #logo_sec2 h2 {
+         padding-left: 0%;
+    }
+     #logo_heb h2 {
+         padding-left: 0%;
+    }
+    /*Emplacement infobulle*/
+     .infobulle, .info{
+         margin-top: 20px;
+    }
+    /****************Titre trouvez hebergement pour vacances de rêve************/
+     #bloc-recherche{
+         padding:5px;
+    }
+     .title1{
+         font-size: x-large;
+    }
+    /*******************section p**********************/
+     section p{
+         margin-bottom: 25px;
+    }
+    /**********************Bouton Rechercher*********************/
+     .button_rechercher{
+         display: none;
+    }
+    /**************Icone recherche mobile**************/
+     button.fas.fa-search{
+         display: block;
+         background-color: #0065fc;
+         color: white;
+         border: none;
+         border-radius: 30%;
+         position: relative;
+         right:4%;
+         cursor: pointer;
+         width: 15%;
+    }
+    /**************dismensions icone**************/
+     .fa-search:before{
+         font-size: smaller;
+    }
+     #logo_recherche{
+         width: 15%;
+         height: 40px;
+    }
+    /**************champ recherche**************/
+     #marecherche.ville{
+         padding-right:23%;
+         padding-left: 5%;
+    }
+     section p{
+         font-size: 1em;
+    }
+     .infobulle, .info{
+         font-size: 14px;
+    }
+    /***********************Filtre*****************************/
+     .filter {
+         display: inline-block;
+         justify-items: baseline;
+         margin-top: 8px;
+    }
+     #bloc-filtre{
+         display:flex;
+         flex-wrap: wrap;
+         align-items: baseline;
+    }
+     #filtre-responsive{
+         display:flex;
+         flex-wrap: wrap;
+         align-items: baseline;
+    }
+     #textfiltre {
+         float:none;
+         margin-top: 0px;
+    }
     /*Les plus populaires + Hebergement Marseille*/
-    #wrapper-all-lodgings{
-        gap: 0;
+     #wrapper-all-lodgings{
+         gap: 0;
     }
     /*Les plus populaires*/
-
-    #wrapper-most-popular {
-
-        border-radius: 0px;
-        height:5%;
-        width: 121%;
-        right: 10%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-bottom: 35px;
-
+     #wrapper-most-popular {
+         border-radius: 0px;
+         height:5%;
+         width: 121%;
+         right: 10%;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         padding-bottom: 35px;
     }
     /*Partie Hebergement à Marseille*/
-
-    #wrapper-area{
-        display: flex;
-        flex-wrap: wrap;
-        order:2;
-        width: 100%;
-        height: auto;
-        padding: 10px 0px;
-        background-color: white;
-
-   }
-
-
-    #wrapper-all-lodgings{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+     #wrapper-area{
+         display: flex;
+         flex-wrap: wrap;
+         order:2;
+         width: 100%;
+         height: auto;
+         padding: 10px 0px;
+         background-color: white;
     }
-
-    #flex-area{
-
-        display: flex;
-        flex-direction: column;
+     #wrapper-all-lodgings{
+         display:flex;
+         flex-wrap: wrap;
+         flex-direction: column;
     }
-    #flex-area a{
-    width: 100%;
+     #flex-area{
+         display: flex;
+         flex-direction: column;
     }
-
-    #bloc_page #wrapper-most-popular #wrapper-area {
-        display: none;
+     #flex-area a{
+         width: 100%;
+    }
+     #bloc_page #wrapper-most-popular #wrapper-area {
+         display: none;
     }
     /* Partie Activités à Marseille*/
-    #marseille-activities-flex {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+     #marseille-activities-flex {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
     }
     /*CARTE 1*/
-    .marseille-activities-flex-child img {
-        height: 75%;
+     .marseille-activities-flex-child img {
+         height: 75%;
     }
-  
-    #marseille-activities-flex .marseille-activities-flex-child {
-        width: 100%;
-        height: 0%;
-
+     #marseille-activities-flex .marseille-activities-flex-child {
+         width: 100%;
+         height: 0%;
     }
-    .marseille-activities-flex-child a:last-child img {
-        height: 75%;
+     .marseille-activities-flex-child a:last-child img {
+         height: 75%;
     }
-
-    .marseille-activities-flex-child:last-child a:first-child img {
-        height: 75%;
+     .marseille-activities-flex-child:last-child a:first-child img {
+         height: 75%;
     }
-    .marseille-activities-flex-child:last-child a:last-child img {
-        height: 75%;
+     .marseille-activities-flex-child:last-child a:last-child img {
+         height: 75%;
     }
-     /*CARTE 1*/
-    #marseille-activities-flex #vieux-port{
-    width: 100%;
-    height: 150px;
+    /*CARTE 1*/
+     #marseille-activities-flex #vieux-port{
+         width: 100%;
+         height: 150px;
     }
-
-       /*CARTE 2*/
-    .marseille-activities-flex-child #pomegues {
-    width: 100%;
-    height: 150px;
+    /*CARTE 2*/
+     .marseille-activities-flex-child #pomegues {
+         width: 100%;
+         height: 150px;
     }
     /*CARTE 3 et 4*/
- 
-    #marseille-activities-flex #calanques,
-    #marseille-activities-flex #frioul
-    {
-        width: 100%;
-        height: 150px;
+     #marseille-activities-flex #calanques, #marseille-activities-flex #frioul {
+         width: 100%;
+         height: 150px;
     }
-   
     /*CARTE 5 Notre Dame*/
-    .marseille-activities-flex-child:last-child a:first-child{
-        width: 100%;
-        height: 150px;  
+     .marseille-activities-flex-child:last-child a:first-child{
+         width: 100%;
+         height: 150px;
     }
-     /*CARTE 6 Parc Longchamp*/
+    /*CARTE 6 Parc Longchamp*/
      .marseille-activities-flex-child:last-child a:last-child {
-        width: 100%;
-        height: 150px;    
+         width: 100%;
+         height: 150px;
     }
-  
-
     /* Partie Footer mobile*/
-    footer {
-        display: block;
-        flex-direction: column;
-        align-self: center;
-        height: 377px;
+     footer {
+         display: block;
+         flex-direction: column;
+         align-self: center;
+         height: 377px;
     }
-    footer #bloc_a_propos,
-    #bloc_nos_hebergement {
-        height: 115px;
+     footer #bloc_a_propos, #bloc_nos_hebergement {
+         height: 115px;
     }
-    footer #bloc_assistance {
-        height: 70px;
+     footer #bloc_assistance {
+         height: 70px;
     }
-    footer #bloc_nos_hebergement {
-        margin-top: 15px;
+     footer #bloc_nos_hebergement {
+         margin-top: 15px;
     }
-    footer ul li a {
-        font-size: 0.8em;
-        margin-top: 6px;
+     footer ul li a {
+         font-size: 0.8em;
+         margin-top: 6px;
     }
-    footer h5 {
-        margin-bottom: 9px;
+     footer h5 {
+         margin-bottom: 9px;
     }
 }
-
-
-@media (width: 768px) {
-/******Div deux blocs populaires et hebergements marseille*******/
-#wrapper-all-lodgings{
-flex-direction: column;
+ @media (width: 768px) {
+    /******Div deux blocs populaires et hebergements marseille*******/
+     #wrapper-all-lodgings{
+         flex-direction: column;
+    }
+    /******Emplacement bloc hebergement marseille*******/
+     #wrapper-area{
+         display: flex;
+         order:2;
+         flex-wrap: wrap;
+         width: 100%;
+    }
+    /******Groupement 3 cartes horizontales les plus populaires*******/
+     #most-populars-flex{
+         flex-direction: row;
+    }
+    /******Bloc entier Les plus populaires*******/
+     #wrapper-most-popular{
+         display: flex;
+         flex-wrap: wrap;
+         height: 100%;
+         width: 100%;
+         flex-direction: column;
+         padding-bottom: 30px;
+    }
+    /******Taille 3 cartes*******/
+     #most-populars-flex a{
+         height:127px 
+    }
+    /******Dimensions image hotel les plus populaires*******/
+     #most-populars-flex a img:first-child{
+         width: 45%;
+    }
+    /******Emplacement texte "nuit à partir de" cartes les plus populaires*******/
+     #most-populars-flex a div:first-of-type span:nth-child(2){
+         bottom: 30%;
+    }
+    /******Emplacement titre des hotels *******/
+     #most-populars-flex a div:first-of-type h2:first-child{
+         top:-26% 
+    }
 }
-/******Emplacement bloc hebergement marseille*******/        
-#wrapper-area{
-    display: flex;
-    order:2;
-    flex-wrap: wrap;
-    width: 100%;
-    }        
-
-
-/******Groupement 3 cartes horizontales les plus populaires*******/
-
-#most-populars-flex{
-    flex-direction: row;
-}
-/******Bloc entier Les plus populaires*******/
-#wrapper-most-popular{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    padding-bottom: 30px;
-}
-/******Taille 3 cartes*******/
-#most-populars-flex a{
-    height:127px
-}
-/******Dimensions image hotel les plus populaires*******/
-#most-populars-flex a img:first-child{
-    width: 45%;
-}
-/******Emplacement texte "nuit à partir de" cartes les plus populaires*******/
-#most-populars-flex a div:first-of-type span:nth-child(2){
-  bottom: 30%;
-}
-/******Emplacement titre des hotels *******/
-#most-populars-flex a div:first-of-type h2:first-child{
- top:-26%
-}
-}
+ 

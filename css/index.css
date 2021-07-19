@@ -24,8 +24,9 @@ body {
 {
     display: flex;
     justify-content: space-between;
-      
+    margin-right: 1%;
 }
+
 /*logo*/
 #logo
 {
@@ -46,6 +47,9 @@ nav
     min-width: 115px;
 }
 
+#navig2.menu_navig{
+    margin-left: 15px;
+}
 .menu_navig a:link, .menu_navig a:visited
 {   
     display: block;
@@ -64,20 +68,7 @@ nav
     border-top: 2px solid #0065FC;
 }
 
-#navig1
-{
-    margin-right: 1%;
-}
 
-#navig2
-{
-    margin-right: 1%;
-}
-
-#navig3
-{
-    margin-right: 1%;
-}
 
 #bold_blue
 {
