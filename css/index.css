@@ -54,36 +54,7 @@ nav {
     font-weight: bolder;
     color: #0065FC;
 }
-/*title*/
-#title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 1em;
-    margin-left: 15px;
-    line-height: 15px;
-}
-#logo_heb {
-    display: flex;
-    font-size: 17px;
-    font-weight: bolder;
-    height: 50px;
-    width: auto;
-    margin-bottom: 1%;
-    margin-left: 3.5%;
-}
-#logo_heb h2 {
-    padding-left: 0%;
-}
-#logo_sec2 {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: center;
-    width: 87%;
-    margin-left: 5%;
-    margin-bottom: 1.5%;
-}
+
 /*classe commune sous titres*/
 .sous-titre {
     font-size: large;
