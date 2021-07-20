@@ -64,7 +64,7 @@ nav {
     margin-top: 10px;
 }
 section p {
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 8px;
 }
 /*Bloc recherche*/
@@ -197,7 +197,7 @@ body {
     margin-right: 5px;
 }
 .infobulle {
-    font-size: 11px;
+    font-size: 12px;
 }
 /*Partie section Hebergements a Marseille*/
 /*Blocs hebergement Marseille + Les plus populaire*/
@@ -331,7 +331,7 @@ h4 {
     top:-36%;
 }
 #most-populars-flex a div:first-of-type span:nth-child(2) {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     position: relative;
     bottom: 52%;
 }
