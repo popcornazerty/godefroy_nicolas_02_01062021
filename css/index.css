@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-#bloc_page {
+#bloc-page {
     max-width: 1280px;
     margin: 0 auto;
     overflow-x: hidden;
@@ -30,13 +30,13 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
-.menu_navig {
+.menu-navig {
     min-width: 115px;
 }
-#navig2.menu_navig{
+#navig2.menu-navig{
     margin-left: 15px;
 }
-.menu_navig a:link, .menu_navig a:visited {
+.menu-navig a:link, .menu-navig a:visited {
     display: block;
     height: 35%;
     width: auto;
@@ -50,7 +50,7 @@ nav {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
-#bold_blue {
+#bold-blue {
     font-weight: bolder;
     color: #0065FC;
 }
@@ -78,7 +78,7 @@ section p {
     margin-bottom: 25px;
 }
 /*icone logo emplacement+fond gris*/
-#logo_recherche {
+#logo-recherche {
     display: flex;
     justify-content: center;
    /* horizontal */
@@ -103,7 +103,7 @@ section p {
     padding-left: 5px;
 }
 /*Bouton cliquable rechercher*/
-.button_rechercher {
+.button-rechercher {
     display: block;
     background-color: #0065fc;
     color: white;

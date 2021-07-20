@@ -18,13 +18,13 @@
          height: 133px;
          position: absolute;
     }
-     #navig2.menu_navig{
-         margin:0px 
+     #navig2.menu-navig{
+         margin:0px
     }
      #navig1 {
          height: 30%;
          width: 50%;
-         
+
     }
      #navig2 {
          height: 30%;
@@ -47,7 +47,7 @@
          border-bottom: 2px solid #0065FC;
          color: #0065FC;
     }
-  
+
     /*Emplacement infobulle*/
      .infobulle, .info{
          margin-top: 20px;
@@ -64,7 +64,7 @@
          margin-bottom: 25px;
     }
     /**********************Bouton Rechercher*********************/
-     .button_rechercher{
+     .button-rechercher{
          display: none;
     }
     /**************Icone recherche mobile**************/
@@ -83,7 +83,7 @@
      .fa-search:before{
          font-size: smaller;
     }
-     #logo_recherche{
+     #logo-recherche{
          width: 15%;
          height: 40px;
     }
@@ -156,7 +156,7 @@
      #flex-area a{
          width: 100%;
     }
-     #bloc_page #wrapper-most-popular #wrapper-area {
+     #bloc-page #wrapper-most-popular #wrapper-area {
          display: none;
     }
     /* Partie Activités à Marseille*/
@@ -214,13 +214,13 @@
          align-self: center;
          height: 377px;
     }
-     footer #bloc_a_propos, #bloc_nos_hebergement {
+     footer #bloc-a-propos, #bloc-nos-hebergement {
          height: 115px;
     }
-     footer #bloc_assistance {
+     footer #bloc-assistance {
          height: 70px;
     }
-     footer #bloc_nos_hebergement {
+     footer #bloc-nos-hebergement {
          margin-top: 15px;
     }
      footer ul li a {
@@ -258,7 +258,7 @@
     }
     /******Taille 3 cartes*******/
      #most-populars-flex a{
-         height:127px 
+         height:127px
     }
     /******Dimensions image hotel les plus populaires*******/
      #most-populars-flex a img:first-child{
@@ -270,7 +270,7 @@
     }
     /******Emplacement titre des hotels *******/
      #most-populars-flex a div:first-of-type h2:first-child{
-         top:-26% 
+         top:-26%
     }
 }
  
