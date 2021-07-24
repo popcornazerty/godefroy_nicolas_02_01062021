@@ -17,7 +17,9 @@ body {
 #barre-menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 1%;
+    max-width: 1280px;
+    margin: auto;
+
 }
 /*logo*/
 #logo {
@@ -458,11 +460,17 @@ h5 {
     margin-top: 15px;
     margin-bottom: 5px;
 }
+.bloc-footer{
+    background-color: #F2F2F2;
+ 
+
+}
 footer {
     display: flex;
     gap: 130px;
     justify-content: flex-start;
-    background-color: #F2F2F2;
     padding: 0px 30px 15px 0px;
     margin-top: 38px;
+    max-width: 1280px;
+    margin: auto;
 }
