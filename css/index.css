@@ -361,6 +361,8 @@ h4 {
 #afficher {
     font-size: small;
     font-weight: bold;
+    position: relative;
+    top: 15px;
 }
 /*Activités à Marseille*/
 /*Section marseille activité*/
