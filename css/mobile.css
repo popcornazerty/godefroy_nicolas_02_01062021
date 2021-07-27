@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 749px) {
     /*Partie Header*/
      #barre-menu {
          width: 99%;
@@ -73,23 +73,23 @@
          background-color: #0065fc;
          color: white;
          border: none;
-         border-radius: 30%;
+         border-radius: 13px;
          position: relative;
          right:4%;
          cursor: pointer;
-         width: 15%;
+         width: 40px;
     }
     /**************dismensions icone**************/
      .fa-search:before{
          font-size: smaller;
     }
      #logo-recherche{
-         width: 15%;
+        width: 40px;
          height: 40px;
     }
     /**************champ recherche**************/
      #marecherche.ville{
-         padding-right:23%;
+         
          padding-left: 5%;
     }
      section p{
@@ -134,9 +134,13 @@
          padding-bottom: 35px;
          padding:5% 11% 10% 10%;
     }
+    /*images Hotel*/
+    #most-populars-flex a img:first-child {
+        width: 140px;
+    }    
     /*Partie Hebergement à Marseille*/
      #wrapper-area{
-         display: flex;
+        
          flex-wrap: wrap;
          order:2;
          width: 100%;

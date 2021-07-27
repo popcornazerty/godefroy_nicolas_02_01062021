@@ -313,7 +313,7 @@ h4 {
 }
 /*Disposition images les plus populaires*/
 #most-populars-flex a img:first-child {
-    width: 40%;
+    width: 120px;
     border-radius: 10px 0 0 10px;
     object-fit: cover;
 }
