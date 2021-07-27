@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 749px) {
     /*Partie Header*/
      #barre-menu {
          width: 99%;
@@ -73,23 +73,23 @@
          background-color: #0065fc;
          color: white;
          border: none;
-         border-radius: 30%;
+         border-radius: 13px;
          position: relative;
          right:4%;
          cursor: pointer;
-         width: 15%;
+         width: 40px;
     }
     /**************dismensions icone**************/
      .fa-search:before{
          font-size: smaller;
     }
      #logo-recherche{
-         width: 15%;
+        width: 40px;
          height: 40px;
     }
     /**************champ recherche**************/
      #marecherche.ville{
-         padding-right:23%;
+         
          padding-left: 5%;
     }
      section p{
@@ -134,9 +134,13 @@
          padding-bottom: 35px;
          padding:5% 11% 10% 10%;
     }
+    /*images Hotel*/
+    #most-populars-flex a img:first-child {
+        width: 140px;
+    }    
     /*Partie Hebergement à Marseille*/
      #wrapper-area{
-         display: flex;
+        
          flex-wrap: wrap;
          order:2;
          width: 100%;
@@ -232,45 +236,6 @@
     }
 }
  @media (width: 768px) {
-    /******Div deux blocs populaires et hebergements marseille*******/
-     #wrapper-all-lodgings{
-         flex-direction: column;
-    }
-    /******Emplacement bloc hebergement marseille*******/
-     #wrapper-area{
-         display: flex;
-         order:2;
-         flex-wrap: wrap;
-         width: 100%;
-    }
-    /******Groupement 3 cartes horizontales les plus populaires*******/
-     #most-populars-flex{
-         flex-direction: row;
-    }
-    /******Bloc entier Les plus populaires*******/
-     #wrapper-most-popular{
-         display: flex;
-         flex-wrap: wrap;
-         height: 100%;
-         width: 100%;
-         flex-direction: column;
-         padding-bottom: 30px;
-    }
-    /******Taille 3 cartes*******/
-     #most-populars-flex a{
-         height:127px
-    }
-    /******Dimensions image hotel les plus populaires*******/
-     #most-populars-flex a img:first-child{
-         width: 45%;
-    }
-    /******Emplacement texte "nuit à partir de" cartes les plus populaires*******/
-     #most-populars-flex a div:first-of-type span:nth-child(2){
-         bottom: 30%;
-    }
-    /******Emplacement titre des hotels *******/
-     #most-populars-flex a div:first-of-type h2:first-child{
-         top:-26%
-    }
+   
 }
  

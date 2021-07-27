@@ -1,0 +1,44 @@
+@media screen and (min-width: 750px) and (max-width: 992px){
+
+ /******Div deux blocs populaires et hebergements marseille*******/
+ #wrapper-all-lodgings{
+    flex-direction: column;
+}
+/******Emplacement bloc hebergement marseille*******/
+#wrapper-area{
+    display: flex;
+    order:2;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/******Groupement 3 cartes horizontales les plus populaires*******/
+#most-populars-flex{
+    flex-direction: row;
+}
+/******Bloc entier Les plus populaires*******/
+#wrapper-most-popular{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+/******Taille 3 cartes*******/
+#most-populars-flex a{
+    height:127px
+}
+/******Dimensions image hotel les plus populaires*******/
+#most-populars-flex a img:first-child{
+    width: 105px;
+}
+/******Emplacement texte "nuit à partir de" cartes les plus populaires*******/
+#most-populars-flex a div:first-of-type span:nth-child(2){
+    bottom: 30%;
+}
+/******Emplacement titre des hotels *******/
+#most-populars-flex a div:first-of-type h2:first-child{
+    top:-26%
+}
+
+}
