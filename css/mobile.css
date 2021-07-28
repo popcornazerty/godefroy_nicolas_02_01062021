@@ -75,22 +75,22 @@
          border: none;
          border-radius: 13px;
          position: relative;
-         right:4%;
+         right:10px;
          cursor: pointer;
-         width: 40px;
+         width: 50px;
     }
     /**************dismensions icone**************/
      .fa-search:before{
          font-size: smaller;
     }
      #logo-recherche{
-        width: 40px;
+        width: 50px;
          height: 40px;
     }
     /**************champ recherche**************/
      #marecherche.ville{
-         
-         padding-left: 5%;
+         width: 100%;
+         padding-left: 10px;
     }
      section p{
          font-size: 1em;
