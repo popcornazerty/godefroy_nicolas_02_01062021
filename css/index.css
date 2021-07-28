@@ -97,6 +97,10 @@ section p {
 #marecherche {
     border: 1px solid #eeeeee;
 }
+
+#marecherche.ville{
+padding-left:10px;
+}
 /*Mise en page texte Marseille, France*/
 ::placeholder {
     font-family: "Raleway", Verdana, Tahoma, sans-serif;
